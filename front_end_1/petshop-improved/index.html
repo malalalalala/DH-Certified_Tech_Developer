@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="settings-bar">
+            <span>Grandes ofertas en comederos</span>
+            <div class="settings-bar-options">
+                <select class="language-select">
+                    <option value="">Español</option>
+                    <option value="">English</option>
+                </select>
+                <select class="currency-select">
+                    <option value="">ARG$</option>
+                </select>
+            </div>
+        </nav>
+        <nav class="content-bar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo">
+            </div>
+            <ul class="content-bar-menu">
+                <li class="content-bar-menu-item">
+                    <i class="fas fa-paw"></i>
+                    <a href="#" class="menu-link">
+                        Categorías
+                    </a>
+                </li>
+                <li class="content-bar-menu-item">
+                    <i class="fas fa-paw"></i>
+                    <a href="#" class="menu-link">
+                        Pets
+                    </a>
+                </li>
+                <li class="content-bar-menu-item">
+                    <i class="fas fa-paw"></i>
+                    <a href="#" class="menu-link">
+                        Nosotros
+                    </a>
+                </li>
+                <li class="content-bar-menu-item">
+                    <i class="fas fa-paw"></i>
+                    <a href="#" class="menu-link">
+                        Contáctanos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h1 class="banner-title">¡Es un placer tenerte aquí!</h1>
+                <p class="banner-description">¡Comederos en descuento!</p>
+                <button class="banner-button">Comederos</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="products">
+            <div class="products-list-icon">
+                <i class="fas fa-paw fa-5x"></i>
+            </div>
+            <h2 class="products-title">Productos Destacados</h2>
+            <div class="product-categories">
+                <span class="product-category">Comederos</span>
+                <span class="product-separator"> - </span>
+                <span class="product-category">Accesorios</span>
+                <span class="product-separator"> - </span>
+                <span class="product-category">Comida</span>
+            </div>
+            <div class="product-list">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./images/churrasquito.png" alt="">
+                    </div>
+                    <h3 class="product-title">Juguete Churrasquito</h3>
+                    <span class="product-price">$150</span>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./images/comedero.png" alt="">
+                    </div>
+                    <h3 class="product-title">Comedero para perro</h3>
+                    <span class="product-price">$250</span>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./images/huesito.png" alt="">
+                    </div>
+                    <h3 class="product-title">Juguete Huesito</h3>
+                    <span class="product-price">$650</span>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h3 class="contact-title">Contáctanos</h3>
+            <form class="contact-form">
+                <div class="contact-form-field">
+                    <input type="text" class="contact-form-input" placeholder="Nombre y Apellido">
+                </div>
+                <div class="contact-form-field">
+                    <input type="email" class="contact-form-input" placeholder="Ingresá tu correo electrónico">
+                </div>
+                <div class="contact-form-field">
+                    <input type="tel" class="contact-form-input" placeholder="Teléfono">
+                </div>
+                <div class="contact-form-buttons">
+                    <button class="reset-button">Resetear</button>
+                    <button class="submit-button">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <section class="suscription">
+            <div class="suscription-info">
+                <span class="suscription-icon">
+                    <img src="./images/send-email-icon.png" alt="">
+                </span>
+                <h3 class="suscription-title">Suscríbete para más novedades</h3>
+            </div>
+            <div class="suscription-form">
+                <form class="subscribe-form">
+                    <div class="subscribe-form-field">
+                        <input type="text" class="subscribe-form-input" placeholder="Ingresá tu correo electronico">
+                        <button class="subscribe-form-button">Suscribirme</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="location">
+            <div class="location-info">
+                <div class="location-list">
+                    <div class="location-list-item">
+                        <img src="./images/location-icon.png" class="location-list-icon" alt="Location Icon">
+                        <div class="location-list-info">
+                            <h5 class="location-list-title">Localidad</h5>
+                            <p class="location-list-description">Calle - provincia</p>
+                        </div>
+                    </div>
+                    <div class="location-list-item">
+                        <img src="./images/phone-icon.png" class="location-list-icon" alt="Location Icon">
+                        <div class="location-list-info">
+                            <h5 class="location-list-title">Teléfono</h5>
+                            <p class="location-list-description">Número de teléfono</p>
+                        </div>
+                    </div>
+                    <div class="location-list-item">
+                        <img src="./images/mail-icon.png" class="location-list-icon" alt="Location Icon">
+                        <div class="location-list-info">
+                            <h5 class="location-list-title">Correo Electrónico</h5>
+                            <p class="location-list-description">Dirección de correo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="location-image">
+                <img src="./images/logo2.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span>Todos los derechos reservados Front End</span>
+    </footer>
+</body>
+
+</html>
