@@ -162,6 +162,7 @@ body {
     
     .hero-card {
        max-width: 40%;
+
       }
     
     #harley{
@@ -197,6 +198,11 @@ body {
         left: calc(50% - 20px);
         top: calc(50% - 20px);
 
+
+    }
+
+    .hero-card-content{
+        color: blue;
     }
 }
 
@@ -209,6 +215,7 @@ body {
 
     .hero-card {
         max-width: 450px;
+
     }
 
     .hero-card-picture {
@@ -230,6 +237,10 @@ body {
 
     }
 
+    .hero-card-content{
+        color: pink;
+    }
+
 
 }
 
@@ -237,20 +248,21 @@ body {
 
     .heroes {
         width:100%;
-     justify-content: center;
+    justify-content: center;
     }
     
     .hero-card{
         font-size: 1.5rem;
+
     }
 
 
-        .hero-card-title{
+    .hero-card-title{
         font-size: 2.5rem;
     }
 
 
-       .additional-characters{
+    .additional-characters{
             margin-bottom:500px;
             top: 1100px;
 
@@ -265,6 +277,10 @@ body {
     .github{
         height: 40px;
         padding-left: 600px;
+    }
+
+    .hero-card-content{
+        color: green;
     }
 
 }
