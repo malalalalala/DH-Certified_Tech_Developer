@@ -122,7 +122,7 @@ input:nth-child(4){
 
 }
 
-label input[type=checkbox], label input[type=checkbox]{
+label input[type=checkbox], label input[type=radio]{
 font-size: 1rem;
 margin-bottom: 1rem;
 padding: 1rem;
