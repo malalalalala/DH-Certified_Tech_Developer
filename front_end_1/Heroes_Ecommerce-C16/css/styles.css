@@ -136,13 +136,11 @@ body {
 /* Footer Styles */
 
 .footer {
-    padding: 8px;
+    padding: 0.5rem;
     background-color: #00669F;
     color: #FFFFFF;
-    display:flex;
-    font-size: 0,8rem;
-    align-items:  center;
-    flex-direction: column;
+    font-size: 0.8rem;
+    text-align:  center;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -190,10 +188,6 @@ body {
         padding-left: 20%;
     }
         
-    .github{
-        padding-left: 10%;
-    }
-
     .plus{
         position: absolute;
         width: 50%;
@@ -273,11 +267,6 @@ body {
         margin-top: 300px;
         font-size: 1.5rem;
 
-    }
-    
-    .github{
-        height: 40px;
-        padding-left: 600px;
     }
 
 }

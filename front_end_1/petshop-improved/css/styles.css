@@ -316,3 +316,110 @@ color: orange;
     background-color: #222222;
 }
 
+
+.menu-bars{
+    display: block;
+}
+@media screen and (max-width:600px) {
+
+    .settings-bar{
+        display: none;       
+    }
+    
+    .content-bar-menu {
+        display: none;  
+        
+    }
+    
+    .menu-bars{
+        display: none;
+    }
+
+
+.banner {
+    background-size:auto ;
+    justify-content: center;
+    text-align: end;
+    
+}
+
+.banner-title {
+    padding: 0.8rem;
+    background-color: #FFFFFF;
+    font-size: 1.56rem;
+
+}
+   
+
+
+.banner-button {
+    padding: 1rem;
+    font-size:1rem
+ 
+}
+
+
+.products {
+justify-content: center;
+align-items: center;
+min-width: 10rem ;
+
+}
+
+.products-title {
+    font-size: 2.5rem;
+    color: #3C2313;
+}
+.product-category {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.product-list{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.product-title, .product-price {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.contact {
+    min-width: 20rem;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.suscription{
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.suscription-title{
+    font-size: 1.2rem;
+}
+
+.subscribe-form-field{
+    flex-direction:row ;
+    width: 150%;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form-input {
+    width: 50%;
+   padding:1rem 0.5rem;
+
+    color: #A0A0A0;
+    font-size: 0.5rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+.location {
+    display: flex;
+   flex-direction: column-reverse
+   ;
+}
+}
+
