@@ -63,6 +63,11 @@ function recorrerListadoYRenderizarTarjetas() {
   /* ------------------ PUNTO 3: Escribe tu codigo desde aqui ------------------ */
 
   const cardsContainer = document.getElementById('fila');
+  const addClass = (selector, classToAdd) => {
+    document
+      .querySelectorAll(selector)
+      .forEach((element) => element.classList.add(classToAdd));
+  };
 
   if (!clicked) {
     listado.forEach((materia) => {
@@ -74,14 +79,9 @@ function recorrerListadoYRenderizarTarjetas() {
 
       cardsContainer.innerHTML += cardMateria;
 
-      const cardWrapper = document.querySelectorAll('div#fila > div');
-      cardWrapper.forEach((card) => card.classList.add('caja'));
-
-      const languages = document.querySelectorAll('img + p');
-      languages.forEach((language) => language.classList.add('lenguajes'));
-
-      const startMonth = document.querySelectorAll('p + p');
-      startMonth.forEach((month) => month.classList.add('bimestre'));
+      addClass('div#fila > div', 'caja');
+      addClass('img + p', 'lenguajes');
+      addClass('p + p', 'bimestre');
     });
   }
 
