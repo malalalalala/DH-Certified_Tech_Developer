@@ -1,0 +1,5 @@
+Vamos a realizar una pequeña práctica con lo visto, para ello, vamos a necesitar el siguiente material que les dejamos en este link. Te pedimos que, antes de comenzar, abras el HTML en tu explorador para ver cómo se ve, además, tómate unos minutos para ver los archivos y el código.
+Con este template, te proponemos realizar un script para poder seleccionar entre un tema claro y un tema oscuro. Para poder realizarlo, vamos a tener en cuenta algunas cosas:
+Deberás modificar el CSS comentado, el mismo tiene los estilos para el tema oscuro, pero tendrás que configurar los selectores que quieras usar.
+Tené en cuenta qué métodos conocés para pedirle a un usuario un valor y de estos cuál te conviene usar.
+No hay una sola manera de solucionar este ejercicio, así que animate a probar diferentes opciones, incluso una vez que hayas terminado una primera versión. 
