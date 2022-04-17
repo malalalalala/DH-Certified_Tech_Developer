@@ -1,0 +1,35 @@
+@startuml
+
+class Personaje {
+ + mostrarHabilidades(): void
+}
+
+abstract class Habilidad {
+ - nombre: String
+ - descripcion: String
+ + {abstract} calcularPuntaje(): double
+}
+
+class FactoryHabilidad {
+ + {static} crearHabilidadSimple(nombre: String, descripcion: String, puntaje: double ): Simple
+ + {static} crearHabilidadCombinada(nombre: String, descripcion: String, multiplicador: int, habilidadesSimples: Set<Simple>): Combinada
+}
+
+class Simple {
+ - puntaje: double
+ + {override} calcularPuntaje(): double
+ + {override} toSring(): String
+}
+
+class Combinada {
+ - multiplicador: int
+ + {override} calcularPuntaje(): double
+ + {override} toSring(): String
+}
+
+Personaje *--"*" Habilidad : -habilidades
+Simple -up-|> Habilidad
+Combinada -up-|> Habilidad
+Combinada o--"*" Simple: -habilidadesSimples
+
+@enduml

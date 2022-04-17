@@ -1,0 +1,41 @@
+@startuml
+
+class Alumno{
+-nombre:String
+-apellido:String
+-legajo:String
++Alumno(nombre:String,apellido:String,legajo:String)
+}
+
+abstract class Examen{
+-alumno:Alumno
+-titulo:String
+-enunciado:String
+-nota:String
++Examen(alumno:Alumno,titulo:String,enunciado:String,nota:String)
+}
+
+class Parcial extends Examen{
+-numeroUnidad:int
+-numeroReintentos:int
++Parcial(alumno:Alumno, titulo:String, enunciado:String, nota:double, numeroUnidad:int, numeroReintentos:int)
++esPosibleSeguirRecuperando():boolean
+
+}
+
+class Final extends Examen implements Comparable{
+- notaDelOral: double
+- descripcionDelTema: String
++ Final(notaDelOral: double,
+    descripcionDelTema: String, alumno: Alumno,
+    titulo: String, temaDeExamen: String,
+    enunciado: String, nota: double)
+}
+
+interface Comparable{
++ compareTo(o: Object): boolean
+}
+
+Examen *-- Alumno
+
+@enduml

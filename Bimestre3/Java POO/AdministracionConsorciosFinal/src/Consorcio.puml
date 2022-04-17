@@ -1,0 +1,77 @@
+@startuml
+class Administracion{
++agregarUnidadFuncional(codigo:String,direccion:String,duenio:String,metrosCuadrados:double,valorMetroCuadrado:double):void
++mostrarUnidadesFuncionales():void
++Administracion():Administracion
+}
+
+abstract class UnidadFuncional{
+-direccion:String
+-duenio:String
+-metrosCuadrados:double
+-impuesto:double
+-valorMetroCuadrado:double
+
++UnidadFuncional(direccion:String,duenio:String,metrosCuadrados:double,valorMetroCuadrado:double,impuesto:double):UnidadFuncional
+
++{abstract} calcularPrecio():double
++getMetrosCuadrados():double
++getValorMetroCuadrado():double
++getImpuesto():double
++{override} toString():String
+
+}
+
+class FactoryUnidadFuncional{
+-{static} IMPUESTO_COCHERA:double
+-{static} CODIGO_COCHERA:String
+-{static} IMPUESTO_DEPARTAMENTO:double
+-{static} CODIGO_DEPARTAMENTO:string
+-{static} IMPUESTO_LOCAL:double
+-{static} CODIGO_LOCAL:string
+-{static} IMPUESTO_SHOPPING:double
+-{static} CODIGO_SHOPPING:string
+
+
++{static} crearUnidadFuncional(codigo:String,direccion:String,duenio:String,metrosCuadrados:double,valorMetroCuadrado:double):UnidadFuncional
+}
+
+class CodigoUnidadFuncionalException{
+ CodigoUnidadFuncionalException(message:String):CodigoUnidadFuncionalException
+}
+
+class Departamento{
++{override} calcularPrecio():double
++Departamento(direccion:String,duenio:String,metrosCuadrados:double,valorMetroCuadrado:double,impuesto:double):Departamento
+}
+
+class Cochera{
++{override} calcularPrecio():double
++Cochera(direccion:String,duenio:String,metrosCuadrados:double,valorMetroCuadrado:double,impuesto:double):Cochera
+}
+
+
+class Local{
++{override} calcularPrecio():double
++Local(direccion:String,duenio:String,metrosCuadrados:double,valorMetroCuadrado:double,impuesto:double):Local
+}
+
+
+class Shopping{
++{override} calcularPrecio():double
++agregarLocales():void
++Shopping(direccion:String,duenio:String,
+metrosCuadrados:double,impuesto:double,valorMetroCuadrado:double)
+}
+
+Administracion *-- "*" UnidadFuncional: -unidadesFuncionales
+Administracion .left.> FactoryUnidadFuncional
+Departamento -up-|> UnidadFuncional
+Cochera -up-|> UnidadFuncional
+Local -up-|> UnidadFuncional
+Shopping -up-|> UnidadFuncional
+Shopping o-- "*" Local:-locales
+FactoryUnidadFuncional ..>CodigoUnidadFuncionalException:throws
+
+@enduml
+

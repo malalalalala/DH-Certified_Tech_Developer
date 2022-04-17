@@ -1,0 +1,47 @@
+@startuml
+
+class Barco{
+-nombre:String
+
++ mostrarInforme(): void
+}
+
+abstract class Carga{
+-nombre:String
+-descripcion:String
+
++{abstract} calcularPeso():double
+}
+
+class FactoryTiposDeCargas {
+    + {static} CrearCargaSimple(nombre:String,pesoCarga:double,refrigeracion:boolean):CargaSimple
+
+    + {static} CrearContenedor(nombre:String,pesoPropioContenedor:double,List<CargaSimple> cargasSimples):Contenedor
+}
+
+class CargaSimple{
+-pesoCarga:double
+-refrigeracion:boolean
+
++ {override} calcularPeso(): double
++ {override} toString(): String
+}
+
+class Contenedor{
+-pesoPropioContenedor:double
+
++ {override} calcularPeso(): double
++ {override} toString(): String
+}
+
+Barco o-- "*" Carga :-Cargas
+CargaSimple  -up-|> Carga
+Contenedor -up-|> Carga
+Contenedor o-- "*" CargaSimple :-CargasSimples
+
+'Barco --> Carga :Cargas
+'CargaSimple  -up-|> Carga
+'Contenedor -up-|> Carga
+'Contenedor --> CargaSimple :Cargas
+
+@enduml

@@ -1,0 +1,39 @@
+@startuml
+
+@startuml
+
+class FiguraCompuesta {
+ - figuras : List<Calculable>
+ - sumaTotalAreas : double
+ + FiguraCompuesta() : FiguraCompuesta
+ + agregarFiguras(figuras: ArrayList): void
+ + calcularAreaTotal(): double
+}
+
+interface Calculable {
+  + {abstract} calcularAreaTotal(): double
+}
+
+class Circulo {
+   - radio : double
+   + Circulo(radio: double) : Circulo
+   + calcularAreaTotal(): double
+}
+
+class Triangulo {
+      - base : double
+      - alto : double
+      + Triangulo(alto: double, base:double) : Triangulo
+      + calcularAreaTotal(): double
+}
+
+class Rectangulo {
+   - alto: double
+   - largo: double
+   + Rectangulo(alto: double, largo: double) : Rectangulo
+   + calcularAreaTotal(): double
+}
+
+FiguraCompuesta *-right- "*" Calculable: - figuras
+Triangulo -up-> Calculable
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Computadoras
+
+class Computadora {
+    - tipoDeComputadora : String
+    + encender() : void
+    + apagar() : void
+    + abrir(programa : Programa) : void
+    + cerrar(programa : Programa) : void
+}
+
+class DiscoRigido {
+    - marca : String
+    - capacidadEnGb : double
+    - velocidadEnRpm : int
+    + guardar(archivo : Archivo) : void
+    + modificar(archivo : Archivo) : void
+    + eliminar(archivo : Archivo) : void
+    - tieneEspacioDisponible(gbArchivo : double) : boolean
+}
+
+class Procesador {
+    - marca : String
+    - modelo : String
+    - velocidadEnGh : double
+    - instrucciones : String[]
+    + agregar(instruccion : String) : void
+    + modificar(instruccion : String) : void
+    + eliminar(instruccion : String) : void
+    + procesarInstruccion() : void
+}
+
+class Memoria {
+    - marca : String
+    - capacidadEnGb : double
+    - instrucciones : String[]
+    + agregar(instruccion : String) : void
+    + modificar(instruccion : String) : void
+    + eliminar(instruccion : String) : void
+    + enviarInstruccion(procesador : Procesador) : void
+    - tieneEspacioDisponible(gbInstruccion : double) : boolean
+}
+
+Computadora o-- DiscoRigido
+Computadora "1" o-- "*" Procesador
+Computadora "1" o-- "2" Memoria
+Memoria "usa". Procesador
+@enduml

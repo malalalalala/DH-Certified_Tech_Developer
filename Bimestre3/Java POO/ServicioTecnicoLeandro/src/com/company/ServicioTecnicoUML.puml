@@ -1,0 +1,56 @@
+@startuml
+
+class Reparacion {
+    - nombreArticulo: String
+    - presupuesto: double
+    - direccionDeEntrega: String
+
+    + Reparacion(nombreArticulo: String): Reparacion
+    + cambiarDireccion(direccion: String): void
+    + agregarValorPresupuesto(presupuesto: double): void
+    + agregarRepuesto(costo: double): void
+    + pasarAlSiguientePaso(): void
+    + toString(): String
+}
+
+abstract EstadoReparacion {
+    + {abstract} valorPresupuesto(presupuesto: double): void
+    + {abstract} cambiarDireccion(direccion: String): void
+    + {abstract} agregarRepuesto(costo: double): void
+    + pasarAlSiguientePaso(): EstadoReparacion
+}
+class EnPresupuesto {
+    + valorPresupuesto(presupuesto: double): void
+    + cambiarDireccion(direccion: String): void
+    + agregarRepuesto(costo: double): void
+}
+
+class EnReparacion {
+    + valorPresupuesto(presupuesto: double): void
+    + cambiarDireccion(direccion: String): void
+    + agregarRepuesto(costo: double): void
+}
+
+class ParaEnvio {
+    + valorPresupuesto(presupuesto: double): void
+    + cambiarDireccion(direccion: String): void
+    + agregarRepuesto(costo: double): void
+}
+
+class Finalizado {
+    + valorPresupuesto(presupuesto: double): void
+    + cambiarDireccion(direccion: String): void
+    + agregarRepuesto(costo: double): void
+}
+
+class FactoryEstadoReparacion {
+    + proximoEstado(estadoActual: EstadoReparacion): EstadoReparacion
+}
+
+Reparacion *-right- "1" EstadoReparacion: - estado
+EnPresupuesto -up-|> EstadoReparacion
+EnReparacion -up-|> EstadoReparacion
+ParaEnvio -up-|> EstadoReparacion
+Finalizado -up-|> EstadoReparacion
+EstadoReparacion .right.> FactoryEstadoReparacion
+@enduml

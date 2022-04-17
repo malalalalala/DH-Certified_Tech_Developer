@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/class-diagram
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+
+class NombreClase1 {
+    - atributo : String
+    + metodos() : void
+}
+
+class NombreClase2 {
+    - atributo : String
+    + metodos() : void
+}
+note left
+    texto
+    texto
+    texto
+    texto
+end note
+
+NombreClase2 <- NombreClase1
+
+@enduml

@@ -1,0 +1,42 @@
+@startuml
+
+class Cup {
+    - id: String
+    - name: String
+    - surname: String
+
+    + Cup(id: String, name: String, surname: String): Cup
+}
+
+abstract Gan {
+   - ammunitionAmount: int
+   - rangeInMeters: int
+   - brand: String
+   - caliber: double
+   - condition: String
+
+   + isEnabled(): boolean
+}
+
+class Short {
+    - isAutomatic: boolean
+    + haveLongShot(): boolean
+}
+
+class Long {
+    - haveStamp: boolean
+    - description: String
+    - level: int
+    + compareTo(Object object): int
+}
+
+interface Comparable {
+    + compareTo(Object object): int
+}
+
+Gan o-right- "1" Cup: - policia
+Short -up-|> Gan
+Long ..|> Comparable
+Long -up-|> Gan
+
+@enduml

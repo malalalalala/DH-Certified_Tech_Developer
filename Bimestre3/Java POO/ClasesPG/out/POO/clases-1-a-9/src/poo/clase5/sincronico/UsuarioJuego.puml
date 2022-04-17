@@ -1,0 +1,31 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Usuario Juego
+
+class UsuarioJuego {
+    - nombre : String
+    - clave : String
+    - puntaje : Double
+    - nivel : int
+    + UsuarioJuego(nombre : String, clave : String)
+    + aumentarPuntaje() : void
+    + subirNivel() : void
+    + bonus(valor : int) : void
+}
+@enduml

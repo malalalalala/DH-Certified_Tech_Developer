@@ -1,0 +1,42 @@
+@startuml
+'___________STYLES___________
+title **IMPRESORA**
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor Black
+    BackgroundColor White
+    HeaderBackgroundColor Gray
+    BorderColor Black
+    FontColor White
+    FontSize 14
+    AttributeFontSize 12
+}
+
+skinparam object{
+    ArrowColor Black
+    BackgroundColor White
+    BorderColor Black
+    FontColor Black
+    FontSize 14
+    AttributeFontSize 12
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor Black
+}
+class Impresora {
+    - modelo: String
+    - cantidadHojas: int
+    - tipoConexion: String
+    - fechaFabricacion: String
+    + Impresora(modelo: String, tipoConexion: String, fechaFabricacion: String): Impresora
+    - tienePapel(): boolean
+    + imprimir(texto: String): void
+}
+
+@enduml

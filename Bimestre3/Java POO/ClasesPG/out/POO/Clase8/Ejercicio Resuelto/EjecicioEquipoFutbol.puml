@@ -1,0 +1,63 @@
+@startuml
+'En el equipo de fútbol “Digital FC” se realizan diversos entrenamientos durante la
+'semana, los miembros del equipo concurren y perfeccionan sus habilidades para el
+'siguiente partido.
+'Nos encontramos con un plantel compuesto por futbolistas, quienes se desempeñan
+'en diferentes posiciones y tienen un estatus en el equipo: son titulares o suplentes. El
+'presidente asiste a supervisar y realizar actividades administrativas. Los
+'entrenadores, que dirigen los entrenamientos en grupos, diseñan tácticas de juego.
+'También hay fisioterapeutas que realizan controles médicos, registran el progreso de
+'recuperación de lesiones y otros roles que ustedes puedan mencionar como parte del
+'equipo de fútbol.
+
+class Miembro{
+    - nombre:String
+    - edad : int
+    - nacionalidad : String
+    - apellido : String
+    + cobrar() : void
+}
+
+class Presidente{
+    + supervisar():void
+    + cobrar() : void
+}
+
+class Entrenador{
+    + dirigir(grupo:<futbolista>):void
+    + disenearTactica() : void
+    + cobrar() : void
+}
+
+class Fisioterapeuta{
+    + realizarControlMedico() : void
+    + registrarProgresoLesiones() : void
+    + cobrar() : void
+}
+
+class Futbolista{
+    - numeroCamiseta: int
+    - posicion : String
+    + jugar() : void
+    + cobrar() : void
+}
+
+
+class Titular{
+    + cobrar() : void
+}
+
+class Suplente{
+    + cobrar() : void
+}
+
+Presidente -up-|> Miembro
+Entrenador -up-|> Miembro
+Fisioterapeuta -up-|> Miembro
+Futbolista -up-|> Miembro
+Titular -up-|> Futbolista
+Suplente -up-|> Futbolista
+
+
+
+@enduml

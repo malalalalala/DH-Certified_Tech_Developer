@@ -1,0 +1,20 @@
+@startuml
+
+abstract class Animal{
+- nombre:String
+- edad:Integer
+
++{abstract} hacerRuido():void
+}
+
+class Perro{
++ hacerRuido()
+}
+
+class Gato{
++ hacerRuido()
+}
+
+Animal<|--Perro
+Animal<|--Gato
+@enduml

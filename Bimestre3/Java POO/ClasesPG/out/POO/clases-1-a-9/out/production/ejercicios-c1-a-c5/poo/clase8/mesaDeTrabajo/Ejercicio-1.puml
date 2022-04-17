@@ -1,0 +1,57 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Ej 1
+
+class Establecimiento {
+    - nombre : String
+    + permitirIngreso(p : Persona) : void
+    + permitirEgreso(p : Persona) : void
+    - cumpleProtocolo(p : Persona) : boolean
+}
+
+class Persona {
+    - legajo : int
+    - horarioEntrada : String
+    - horarioSalida : String
+    + {abstract} realizarActividad() : void
+}
+
+class Estudiante {
+    - notas : List<int>
+    + realizarActividad() : void
+}
+
+class Profesor {
+    - titulo : String
+    - aniosAntiguedad : int
+    + realizarActividad() : void
+}
+
+class Administrativo {
+    - cargo : String
+    + realizarActividad() : void
+}
+
+Establecimiento "1" --> "*" Persona
+Persona <|-- Estudiante
+Persona <|-- Profesor
+Persona <|-- Administrativo
+
+
+@enduml

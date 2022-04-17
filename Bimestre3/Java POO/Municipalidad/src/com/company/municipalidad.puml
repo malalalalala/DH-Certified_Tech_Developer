@@ -1,0 +1,48 @@
+@startuml
+class Municipalidad{
++ mostrarPropiedades(): String;
+}
+
+abstract class Propiedad{
+- calle: String
+- numero: int
++ {abstract} calcularImpuesto(): double
++ getCalle(): String
++ getNumero(): int
+}
+
+class FactoryPropiedad{
++ {static} crearCasa(calle: String, numero: int, montoBaseImpuesto: double): Casa
++ {static} crearBarrioCerrado(calle, numero: int, multiplicador: int, listaDeCasas: Set<Casa>): BarrioCerrado
+}
+
+class BarrioCerrado{
+- multiplicador: int
+- listaDeCasas: Set<Casa>
++ {Override} calcularImpuesto(): double
++ {Override} toString(): String
+}
+
+class Casa{
+- montoBaseImpuesto: double
++{static} AV_SAN_MARTIN: String
++{static} PORCENTAJE: double
++ {Override} calcularImpuesto(): double
++ {Override} toString(): String
+}
+
+class Test{
++{state} main(String[] args): void
+}
+
+class PropiedadException{
++ propiedadesException(message: String): PropiedadesException
+}
+
+Casa -up-|> Propiedad
+BarrioCerrado -up-|> Propiedad
+Propiedad "*" -up-o Municipalidad : -propiedad
+BarrioCerrado  o-- "*" Casa :  -casas
+FactoryPropiedad ..> PropiedadException
+
+@enduml

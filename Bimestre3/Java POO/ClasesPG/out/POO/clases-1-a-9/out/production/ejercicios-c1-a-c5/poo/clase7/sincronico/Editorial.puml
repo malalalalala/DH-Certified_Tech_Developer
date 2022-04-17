@@ -1,0 +1,59 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Editorial
+
+class Editorial {
+    - nombre : String
+    - direccion : String
+    - telefono : String
+    + producirRevista(nombre, periodicidad, autores) : void
+}
+
+class Revista {
+    - nombre : String
+    - codigo : String
+    - periodicidad : boolean
+}
+
+class Edicion {
+    - nroEdicion : int
+    - fecha : String
+    - precio : double
+}
+
+class Articulo {
+    - titulo : String
+    - tema : String
+    - fecha : String
+    - contenido : String
+    + Articulo(titulo, tema)
+}
+
+class Autor {
+    - nombre : String
+    - apellido : String
+    + escribirArticulo() : String
+}
+
+Editorial "1" o-- "*" Revista
+Revista "1" *-- "*" Edicion
+Edicion "1" *-- "*" Articulo
+Articulo o--r Autor
+Editorial .. Autor
+@enduml

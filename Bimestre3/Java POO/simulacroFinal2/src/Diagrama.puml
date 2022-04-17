@@ -1,0 +1,50 @@
+@startuml
+
+class Administration {
+    + addFunctionalUnit(code: String, address: String, ownerName: String, m2: double, amountM2: double): void
+    + showFunctionalUnits(): void
+}
+
+class FunctionalUnitFactory {
+    + {static} {final} GARAGE_CODE = "COCH"
+    + {static} {final} MALL_CODE = "SHOP"
+    + {static} {final} SHOP_CODE = "LOCAL"
+    + {static} {final} APARTMENT_CODE = "DEPTO"
+    + {static} create(code: String, address: String, ownerName: String, m2: double, amountM2: double): FunctionalUnit
+}
+
+abstract FunctionalUnit {
+    - address: String
+    - ownerName: String
+    - m2: double
+    - tax: double
+    - amountM2: double
+    + {abstract} calculatePrice(): double
+    + {override} toString(): String
+}
+
+class Garage {
+    + {override} calculatePrice(): double
+}
+
+class Apartment {
+    + {override} calculatePrice(): double
+}
+
+class Shop {
+    + {override} calculatePrice(): double
+}
+
+class Mall {
+    + Mall(address: String,ownerName: String, m2: double, tax: double, shops: Set<Shop>): Mall
+    + {override} calculatePrice(): double
+}
+
+Administration *-- "*" FunctionalUnit : - functionalUnits
+Administration .left.> FunctionalUnitFactory
+Garage -up-|> FunctionalUnit
+Apartment -up-|> FunctionalUnit
+Shop -up-|> FunctionalUnit
+Mall -up-|> FunctionalUnit
+Mall o-right- "*" Shop : - shops
+@enduml

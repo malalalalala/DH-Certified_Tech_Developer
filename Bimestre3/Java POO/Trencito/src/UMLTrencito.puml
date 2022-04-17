@@ -1,0 +1,48 @@
+@startuml
+class Tren{
+- coches: List<CalculableArea>
+
+}
+
+class Coche{
+- tipo: String
+- area: double
+- figuras: List<Figura>
++ getArea(): double
+}
+
+
+abstract class Figura{
+- area: double
++ getArea(): double
+}
+
+class Circulo{
+- radio: double
++ getArea(): double
+}
+class Rectangulo{
+- largo: double
+- alto: double
++ getArea(): double
+}
+class Triangulo{
+- base: double
+- altura: double
++ getArea(): double
+}
+
+interface CalculableArea{
++ {abstract}getArea(): double
+}
+
+Tren *-down- CalculableArea : - coches
+Coche --|> CalculableArea
+Coche *-- Figura : - figuras
+Figura -right-|> CalculableArea
+Circulo -up-|> Figura
+Triangulo -up-|> Figura
+Rectangulo -up-|> Figura
+
+
+@enduml

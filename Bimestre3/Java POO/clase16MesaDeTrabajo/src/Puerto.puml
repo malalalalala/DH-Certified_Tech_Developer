@@ -1,0 +1,27 @@
+@startuml
+
+class Puerto {
+- contenedor : Contenedor
+
+- set <>: Contenedor
++ contarContenedoresPeligrosos() : int
++ agregarContenedor()
++ mostrarContenedores() : void
+}
+class Contenedor implements Comparable{
+- numeroContenedor : int
+- paisProcedencia : String
+- materialesPeligrosos : boolean
+
++ Contenedor(numeroContenedor : String, paisProcedencia : String, materialesPeligrosos : boolean)
++ compareTo(o: Object): int
+}
+
+interface Comparable {
++ compareTo(o: Object): int
+}
+
+Puerto *--"*" Contenedor
+
+
+@enduml

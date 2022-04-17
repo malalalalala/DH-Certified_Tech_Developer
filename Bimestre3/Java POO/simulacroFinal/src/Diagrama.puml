@@ -1,0 +1,45 @@
+@startuml
+
+class Instituto {
+    + generarInforme(): String
+    + agregarOfertaAcademica(oferta: OfertaAcademica): void
+}
+
+class FactoryOfertasAcademicas {
+    + {static} crearCurso(nombre: String, descripcion: String, cargaHorariaMensual: int, mesesDuracion: int, valorHora: double)
+    + {static} crearPrograma(nombre: String, descripcion: String, bonificacion: double, cursos Set<Curso> )
+}
+
+abstract OfertaAcademica {
+    - nombre: String
+    - descripcion: String
+    + {abstract} calcularPrecio(): double
+}
+
+class Curso {
+    - cargaHorariaMensual: int
+    - mesesDuracion: int
+    - valorHora: double
+    + {override} calcularPrecio(): double
+    + {override} toString(): String
+}
+
+class Programa {
+    - bonificacion: double
+    + {override} calcularPrecio(): double
+    + {override} toString(): String
+}
+class Exception{
+   +Exception():Exception
+
+}
+
+Instituto *-- "*" OfertaAcademica : - ofertasAcademicas
+'Instituto --> "*" OfertaAcademica : - ofertasAcademicas
+'Programa --> "*" Curso : - cursos
+Programa o-- "*" Curso : - cursos
+Programa -up-|> OfertaAcademica
+Curso -up-|> OfertaAcademica
+FactoryOfertasAcademicas ..>Exception:throw
+
+@enduml

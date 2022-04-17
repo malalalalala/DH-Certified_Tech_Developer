@@ -1,0 +1,63 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama CS9 - Empresa constructora
+
+class Proyecto {
+    - nombre : String
+    - codigo : int
+    - cdadHorasPorHombre : int
+    + empezar() : void
+    + diseniar() : void
+    + desarrollarProyecto() : void
+    + implementarProyecto() : void
+    + hacerSeguimiento() : void
+    + terminar() : void
+}
+
+class Empresa {
+    - nombre : String
+    - nroIdentificacion : int
+    + contratar(e : Empleado) : void
+    + despedir(e : Empleado) : void
+    + ofrecerServicio() : String
+}
+
+class Empleado {
+    - nombre : String
+    - sueldoFijo : double
+    + {abstract} calcularSueldo() : double
+    + trabajar() : void
+}
+
+class EmpleadoSueldoFijo {
+    + calcularSueldo() : double
+}
+
+class EmpleadoSueldoPorHora {
+    - importePorHora : double
+    - horasTrabajadas : int
+    + calcularSueldo() : double
+    + trabajar() : void
+}
+
+Proyecto "*" *-- "*" Empleado
+Empresa "1" *-- "*" Proyecto
+Empleado <|-- EmpleadoSueldoFijo
+Empleado <|-- EmpleadoSueldoPorHora
+@enduml

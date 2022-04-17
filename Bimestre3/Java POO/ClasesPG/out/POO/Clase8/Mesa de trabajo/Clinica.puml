@@ -1,0 +1,46 @@
+@startuml
+class Paciente{
+    -nombreDocumento:String
+    -nombre:String
+    -edad:int
+    -nombreDeObraSocial:String
+    -particular:boolean
+    -medicoEspecialista:Medico
+    -cantidadDeEstudio
+    -cirugia:boolean
+    -alta:boolean
+}
+
+package medicos{
+
+    class Medico{
+        -numeroDeMatricula:String
+        -nombre:String
+        #importeBasico:double
+
+        +cobrar():double
+    }
+
+    class Cardiologo{
+        +cobrar():double
+    }
+
+    class Cirujano{
+        +cobrar():double
+    }
+
+    class Dermatologo{
+        +cobrar():double
+    }
+
+    class Generalista{
+        +cobrar():double
+    }
+}
+
+Paciente *-left- Medico:-especialista
+Cardiologo --|> Medico
+Cirujano --|> Medico
+Dermatologo --|> Medico
+Generalista --|> Medico
+@enduml

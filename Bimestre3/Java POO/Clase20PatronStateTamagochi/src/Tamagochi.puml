@@ -1,0 +1,47 @@
+@startuml
+
+class Tamagochi {
+    - state: TamagochiState
+
+    + Tamagochi(state: TamagochiState): Tamagochi
+    + recibirBebida(): void
+    + recibirComida(): void
+    + recibirCaricias(): void
+}
+
+interface TamagochiState {
+    + {abstract} darDeBeber(): void
+    + {abstract} darDeComer(): void
+    + {abstract} darCaricias(): void
+}
+
+class Feliz {
+    + darDeBeber(): void
+    + darDeComer(): void
+    + darCaricias(): void
+}
+
+class Triste {
+    + darDeBeber(): void
+    + darDeComer(): void
+    + darCaricias(): void
+}
+class Hambriento {
+    + darDeBeber(): void
+    + darDeComer(): void
+    + darCaricias(): void
+}
+class Sediento {
+    + darDeBeber(): void
+    + darDeComer(): void
+    + darCaricias(): void
+}
+'tamagochi tiene un estado
+Tamagochi *-- "1" TamagochiState: - state
+Feliz .up.|> TamagochiState
+Triste .up.|> TamagochiState
+Hambriento .up.|> TamagochiState
+Sediento .up.|> TamagochiState
+
+
+@enduml

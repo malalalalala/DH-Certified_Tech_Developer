@@ -1,0 +1,59 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 5
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor Purple
+    BackgroundColor LightPink
+    BorderColor Purple
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor Purple
+}
+
+title POO-CS15 - Parcial: Titulos
+
+abstract Titulo {
+    - cantidadMaterias : int
+    - fechaInicioEstudios : String
+    - fechaFinalizacionEstudios : String
+    - fueSelladoPorMinisterio : boolean
+    - fueSelladoPorInstituto : boolean
+    + puedeEjercer() : boolean
+    + {abstract} mostrarInformacion() : void
+}
+
+class Terciario extends Titulo {
+    - validacion : String
+    + esValidoNacionalmente() : boolean
+    + mostrarInformacion() : void
+}
+
+class Licenciatura extends Titulo implements Comparable {
+    - temaTesis : String
+    - fechaEntrega : String
+    - cdadInvestigaciones : int
+    + compareTo(o : Object) : int
+    + mostrarInformacion() : void
+}
+
+class Persona {
+    - nombre : String
+    - apellido : String
+    - dni : int
+    - edad : int
+    + Persona(nombre : String, apellido : String, dni : int, edad : int)
+    + toString() : String
+}
+
+interface Comparable {
+    + {abstract} compareTo(o : Object) : int
+}
+
+Titulo o-l Persona
+
+@enduml

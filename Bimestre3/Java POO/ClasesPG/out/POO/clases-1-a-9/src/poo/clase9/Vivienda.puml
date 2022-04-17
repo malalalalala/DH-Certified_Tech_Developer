@@ -1,0 +1,60 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama CS9 - Vivienda
+
+class Vivienda {
+    - metrosCuadrados : double
+    - direccion : String
+    + {abstract} calcularCalorias() : double
+}
+
+class Casa {
+    - patio : boolean
+    + calcularCalorias() : double
+}
+note left
+500 calorías por m2
+más 100 calorías por
+cada habitante.
+end note
+
+class Departamento {
+    - cantidadPersonas : int
+    + calcularCalorias() : double
+}
+note right
+700 calorías por m2
+end note
+
+class Estufa {
+    - cantidadQuemadores : int
+    + informarCalorias() : double
+}
+
+class Ciudad {
+    - nombre : String
+    + calcularRequerimientos() : double
+}
+
+Ciudad "1" *- "*" Vivienda
+Vivienda "1" -> "*" Estufa
+Vivienda <|-- Casa
+Vivienda <|-- Departamento
+
+@enduml

@@ -1,0 +1,61 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Clínica
+
+class Paciente {
+    - nroDocumento : int
+    - nombre : String
+    - edad : int
+    - nombreObraSocial : String
+    - particular : boolean
+    - cdadEstudios : int
+    - fueOperado : boolean
+    - estaInternado : boolean
+    + hacerEstudio() : void
+    + calcularPago() : double
+}
+
+class MedicoGeneral {
+    - nombre : String
+    - nroMatricula : int
+    - importeHonorarios : double
+    + calcularHonorarios() : double
+}
+
+class Cardiologo {
+    - importeEstudio : double
+    + calcularHonorarios() : double
+}
+
+class Cirujano {
+    - importeAyudante : double
+    + calcularHonorarios() : double
+}
+
+class Dermatologo {
+    - importeMedicamento : double
+    + calcularHonorarios() : double
+}
+
+Paciente "*" --> "1" MedicoGeneral
+MedicoGeneral <|-- Cardiologo
+MedicoGeneral <|-- Cirujano
+MedicoGeneral <|-- Dermatologo
+
+@enduml

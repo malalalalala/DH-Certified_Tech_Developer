@@ -1,0 +1,31 @@
+@startuml
+
+class Carrito {
+    + agregarProducto(item: Presupuestable): void
+    + calcularPrecioTotal(): double
+}
+
+class Producto {
+    - nombre: String
+    - precio: double
+    + calcularPrecioTotal(): double
+}
+
+class Combo {
+    - precioTotal: double
+    + Combo(productos: List<Producto>, descuento: double): Combo
+    + calcularPrecioTotal(): double
+}
+
+interface Presupuestable {
+    + {abstract} calcularPrecioTotal(): double
+}
+
+Carrito --> "*" Presupuestable : - productos
+Combo --> "*" Producto : - productos
+Combo .up.|> Presupuestable
+Producto .up.|> Presupuestable
+
+
+
+@enduml

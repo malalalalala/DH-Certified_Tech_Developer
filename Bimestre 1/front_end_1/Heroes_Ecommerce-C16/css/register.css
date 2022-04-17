@@ -1,0 +1,129 @@
+/* Ganeral Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+}
+
+/* Header Styles */
+
+.header-discounts {
+    font-size: 1rem;
+    background-color:#1CD1B0;
+    line-height: 2rem;
+    padding-left: 1rem;
+}
+
+.header-title {
+    padding: 1rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+    background-color: #00669F;
+    display: flex;
+    align-items: center;    
+}
+
+.logo{
+    margin-right: 1rem;
+}
+
+/* Header Styles */
+
+.register-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:14rem ;
+}
+
+.register-title{
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 1rem;
+}
+
+.register-input{
+    padding: 1rem;
+    border:1.53407px solid #000000;
+    font-size: 1.2rem;
+
+}
+
+.register-input::placeholder{
+   color: #000000;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    grid-gap:1rem
+}
+
+.register-buttons{
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 23.011px;
+    margin-top: 3.2rem;
+    font-size: 1.5rem;
+    width: 45%;
+}
+
+.register-button{
+background-color: #1CD1B0;
+border:#1CD1B0 ;
+}
+.reset-button{
+    background-color: #888888;
+    border:#888888 ;
+    color: #FFFFFF;
+}
+.create-account{
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.enter-text{
+    color:#00669F ;
+}
+
+
+/* Footer Styles */
+
+.footer {
+    padding:1rem;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    text-align:  center;
+    width: 100%;
+    margin-top: 4rem;
+
+}
+

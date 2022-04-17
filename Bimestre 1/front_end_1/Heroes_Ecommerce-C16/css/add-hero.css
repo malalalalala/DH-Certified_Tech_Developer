@@ -1,0 +1,156 @@
+
+/* Ganeral Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+}
+
+/* Header Styles */
+
+.header-discounts {
+    font-size: 1rem;
+    background-color:#1CD1B0;
+    line-height: 2rem;
+    padding-left: 1rem;
+}
+
+.header-title {
+    padding: 1rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+    background-color: #00669F;
+    display: flex;
+    align-items: center;    
+}
+
+.logo{
+    margin-right: 1rem;
+}
+
+.navigation-menu{
+    background-color: #001D2D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    grid-gap:1rem;
+    padding: 0;
+    margin: 1rem;
+}
+
+
+/* Section Styles */
+
+.add-hero-form{
+    width: 60%;   
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+    padding: 1rem 7.5rem;
+    margin-top: 3rem;
+    color:#FFFFFF;
+    font-size: 1.25rem;
+}
+.add-hero-title{
+font-size: 2.3rem;
+line-height: 1rem;
+}
+
+.columns-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.first-column{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: start;
+}
+.second-column{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: start;
+}
+
+.add-hero-form h4{
+    margin:0 0 1rem 0;
+}
+
+input[type=text], #especie, input[type=date], input[type=submit],textarea{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+label:first-child, label:nth-child(2),label:nth-child(3),label:nth-child(4){
+    margin-bottom: 1rem;
+}
+
+input:nth-child(4){
+    margin-bottom: 2rem;
+
+}
+
+label input[type=checkbox], label input[type=radio]{
+font-size: 1rem;
+margin-bottom: 1rem;
+padding: 1rem;
+}
+
+
+
+.add-button{
+background: #1CD1B0;
+border-radius: 1.5rem;
+color:#000000 ;
+font-size: 2.5rem;
+}
+
+hr{
+   width: 100%;
+}
+/* Footer Styles */
+
+.footer {
+    padding:1rem;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    text-align:  center;
+    margin-top: 4rem;
+    width: 100%;
+
+}
+
+

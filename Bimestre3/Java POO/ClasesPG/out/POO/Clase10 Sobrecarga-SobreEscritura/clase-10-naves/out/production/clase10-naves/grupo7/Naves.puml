@@ -1,0 +1,47 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Naves
+
+abstract Objeto {
+    - posx : int
+    - posy : int
+    - direccion : char
+    + Objeto(x : int,y : int, direccion : char)
+    + {abstract} irA(x : int, y : int, direccion : char)
+}
+
+class Nave {
+    - velocidad : double
+    - vida : int
+    + Nave(x : int, y : int, direccion : char, velocidad : double)
+    + irA(x : int, y : int, direccion : char)
+    + girar(direccion : char)
+    + restaVida(valor : int)
+}
+
+class Asteroide {
+    - lesion : int
+    + Asteroide(x : int, y : int, direccion : char, lesion : int)
+    + irA(x : int, y : int, direccion : char)
+}
+
+Objeto <|-- Nave
+Objeto <|-- Asteroide
+
+@enduml

@@ -1,0 +1,64 @@
+@startuml
+
+skinparam class {
+    ArrowColor Purple
+    BackgroundColor LightPink
+    BorderColor Purple
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor Purple
+}
+
+title POO-CS15 - Parcial: Policia Marcos Paz
+
+class Policia{
+    - nombre : String
+    - apellido : String
+    - legajo: String
+
+    +Policia( nombre : String, apellido : String, legajo: String)
+}
+
+abstract class Arma{
+   - policia: Policia
+   - cantidadMuniciones: int
+   - alcanceEnMetros: double
+   - marca: String
+   - calibre: double
+   - estado: String
+   - {static} CALIBRE_MINIMO_PARA_USAR_ENFRENTAMIENTO: double
+   - {static} ESTADO_PARA_USAR_ENFRENTAMIENTO: String
+
+    + Arma( policia: Policia, cantidadMuniciones: int, alcanceEnMetros: double, marca: String, calibre: double, estado: String)
+    + usarEnEnfrentamiento(): boolean
+    + getAlcanceEnMetros(): double
+    + getCalibre(): double
+    + getEstado(): String
+}
+
+class ArmaCorta extends Arma{
+    - automatica: boolean
+    - {static} ALCANCE_MINIMO_DISPARO: double
+
+    +ArmaCorta( policia: Policia, cantidadMuniciones: int, alcanceEnMetros: double, marca: String, calibre: double, estado: String, automatica: boolean )
+    +sePuedeDispararADistanciaMinima(): boolean
+ }
+
+ class ArmaLarga extends Arma implements Comparable{
+     - tieneSelloRenar: boolean
+     - descripcion: String
+     - nivel: int
+
+     +ArmaLarga( policia: Policia, cantidadMuniciones: int, alcanceEnMetros: double, marca: String, calibre: double, estado: String, tieneSelloRenar: boolean, descripcion: String, nivel: int  )
+     + getNivel():int
+     + CompareTo(o:Object):boolean
+ }
+
+ interface Comparable{
+ + compareTo(o: Object): boolean
+ }
+
+ Arma o-left- Policia
+@enduml

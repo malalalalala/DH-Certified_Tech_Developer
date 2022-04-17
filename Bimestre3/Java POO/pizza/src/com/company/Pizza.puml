@@ -1,0 +1,38 @@
+@startuml
+class Pizzeria{
++ mostrarPizzas():String
++ agregarPizza(pizza: Pizza):void
+}
+
+abstract class Pizza{
+- nombre: String
+- descripcion: String
++ {abstract} calcularPrecio(): double
++ getNombre(): String
++ Pizza(nombre: String, descripcion: String): String
+}
+
+class FactoryPizza{
++{static} crearSimple(nombre: String, descripcion: String, precioBase: double): Simple
++{static} crearCombinada(nombre: String, descripcion: String, listaSimple: Set<Simple>): Combinada
+}
+
+class Simple{
+- precioBase: double
+- grande: boolean
++{Override} calcularPrecio(): double
++{Override} toString():String
+}
+
+class Combinada{
+- listaSimple: Set<Simple>
++{Override} calcularPrecio(): double
++{Override} toString():String
+}
+
+Pizzeria o-- "*" Pizza: -pizzas
+Simple -up-|> Pizza
+Combinada -up-|> Pizza
+Combinada o-- "*" Simple: - pizzasSimples
+
+@enduml

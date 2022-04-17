@@ -1,0 +1,56 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Banco Nacional
+
+class Cliente {
+    - nroCliente : int
+    - apellido : String
+    - dni : int
+    - cuit : int
+    + Cliente(nroCliente : int, apellido : String, dni : int, cuit : int)
+    + irAlBanco() : void
+    + quejarse() : void
+    + esperarEternamente() : void
+}
+
+abstract Cuenta {
+    - saldo : double
+    + informarSaldo() : void
+    + depositar(saldo : double) : void
+    + {abstract} extraer(monto : double) : void
+}
+
+class CajaDeAhorro {
+    - tasaInteres : int
+    + CajaDeAhorro(saldo : double, tasaInteres : int)
+    + extraer(monto : double) : void
+    + cobrarInteres() : double
+}
+
+class CuentaCorriente {
+    - descubiertoPermitido : double
+    + CuentaCorriente(saldo : double, montoParaGiroEnDescubierto : double)
+    + extraer(monto : double) : void
+}
+
+Cuenta -> Cliente
+Cuenta <|-- CajaDeAhorro
+Cuenta <|-- CuentaCorriente
+
+@enduml

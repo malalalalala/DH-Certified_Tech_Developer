@@ -1,0 +1,22 @@
+total 1440
+-rw-r--r--@ 1 laura.ramos  staff  723179 Mar  2 21:50 300f1440-d5a5-4a39-b23f-f1536aea467d-original.png
+-rw-r--r--  1 laura.ramos  staff       0 Mar 11 21:35 clase5script.sh
+-rw-r--r--  1 laura.ramos  staff     147 Mar 12 22:57 consultapipe.txt
+drwxr-xr-x  3 laura.ramos  staff      96 Mar 12 22:49 dir1
+drwxr-xr-x  3 laura.ramos  staff      96 Mar 12 22:49 dir2
+drwxr-xr-x  3 laura.ramos  staff      96 Mar 12 22:49 dir3
+-rw-r--r--@ 1 laura.ramos  staff    3349 Mar  6 19:46 index.html
+-rw-r--r--  1 laura.ramos  staff       0 Mar 12 22:58 listado.txt
+drwxr-xr-x  6 laura.ramos  staff     192 Mar  9 21:18 script
+-rw-r--r--@ 1 laura.ramos  staff     734 Mar  6 19:47 vagrantfile
+total 1448
+-rw-r--r--@ 1 laura.ramos  staff  723179 Mar  2 21:50 300f1440-d5a5-4a39-b23f-f1536aea467d-original.png
+-rw-r--r--  1 laura.ramos  staff       0 Mar 11 21:35 clase5script.sh
+-rw-r--r--  1 laura.ramos  staff     147 Mar 12 22:57 consultapipe.txt
+drwxr-xr-x  3 laura.ramos  staff      96 Mar 12 22:49 dir1
+drwxr-xr-x  3 laura.ramos  staff      96 Mar 12 22:49 dir2
+drwxr-xr-x  3 laura.ramos  staff      96 Mar 12 22:49 dir3
+-rw-r--r--@ 1 laura.ramos  staff    3349 Mar  6 19:46 index.html
+-rw-r--r--  1 laura.ramos  staff     691 Mar 12 22:58 listado.txt
+drwxr-xr-x  6 laura.ramos  staff     192 Mar  9 21:18 script
+-rw-r--r--@ 1 laura.ramos  staff     734 Mar  6 19:47 vagrantfile

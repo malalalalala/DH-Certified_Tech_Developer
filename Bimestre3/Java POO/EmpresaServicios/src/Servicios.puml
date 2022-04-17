@@ -1,0 +1,36 @@
+@startuml
+
+class Empresa {
+    + mostrarServicios(): void
+}
+
+abstract class Servicio {
+   - nombre: String
+   - descripcion: String
+   + {abstract} calcularPrecio(): double
+   + getNombre(): String
+}
+
+class FactoryServicio {
+    + {static} crearSimple(nombre: String, descripcion: String, precio: double): Simple
+    + {static} crearCombo(nombre: String, descripcion: String, simples: Set<Simple>): Combo
+}
+
+class Simple {
+   - precio: double
+   + {override} calcularPrecio(): double
+   + {override} toString(): String
+}
+
+class Combo {
+   - descuento: double
+   + {override} calcularPrecio(): double
+   + {override} toString(): String
+}
+
+Empresa *-- "*" Servicios : -servicios
+Simple -up-|> Servicio
+Combo -up-|> Servicio
+Combo o-- "*" Simple : -simples
+
+@enduml

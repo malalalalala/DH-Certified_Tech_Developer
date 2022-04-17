@@ -1,0 +1,64 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Digital Bank - Ejs 1 y 2
+
+class TarjetaDeDebito {
+    - nombreTitular : String
+    - apellidoTitular : String
+    - numero : int
+    - diaVencimiento : int
+    - mesVencimiento : int
+    - saldo : double
+    + TarjetaDeDedito(nombre, apellido, diaVencimiento, mesVencimiento, numero)
+    + extraerDinero(importe : double) : void
+    + depositarDinero(importe : double) : void
+}
+
+class TarjetaDeCredito {
+    - nombreTitular : String
+    - apellidoTitular : String
+    - numero : int
+    - diaVencimiento : int
+    - mesVencimiento : int
+    - limiteBanco : double
+    - limiteCuotas : int
+    - interesCuotas : double
+    + TarjetaDeCredito(nombre, apellido, diaVencimiento, mesVencimiento, numero)
+    + pagar(importe : double, cuotas : int) : void
+    + pagarResumen(importe : double) : int
+}
+
+class CajaDeAhorro {
+    - nombreTitular : String
+    - apellidoTitular : String
+    - saldo : double
+    - cbu : int
+    - alias : String
+    + CajaDeAhorro(nombreTitular, apellidoTitular, saldo)
+    + retirar(importe : double) : void
+    + depositar(importe : double) : void
+    + recibirTransferencia(importe : double, cbu : int) : void
+    + recibirTransferencia(importe : double, alias : String) : void
+}
+
+class Cheque {
+
+}
+
+@enduml

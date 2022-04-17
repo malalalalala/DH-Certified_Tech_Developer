@@ -1,0 +1,112 @@
+[
+  {
+    "aceleracion": 0.57,
+    "anguloDeGiro": 121,
+    "cilindrada": 1500,
+    "patente": "MMN771",
+    "peso": 1609.01,
+    "piloto": "Pepillo Balfe",
+    "puntaje": 89,
+    "sancionado": false,
+    "velocidad": 183
+  },
+  {
+    "aceleracion": 0.31,
+    "anguloDeGiro": 272,
+    "cilindrada": 1500,
+    "patente": "ABC123",
+    "peso": 1262.7,
+    "piloto": "Monah Lyal",
+    "puntaje": 76,
+    "sancionado": false,
+    "velocidad": 161
+  },
+  {
+    "aceleracion": 1.76,
+    "anguloDeGiro": 38,
+    "cilindrada": 1500,
+    "patente": "JQK433",
+    "peso": 1925.29,
+    "piloto": "Merline Tasch",
+    "puntaje": 81,
+    "sancionado": true,
+    "velocidad": 312
+  },
+  {
+    "aceleracion": 1.52,
+    "anguloDeGiro": 29,
+    "cilindrada": 1500,
+    "patente": "CJK912",
+    "peso": 1720.72,
+    "piloto": "Kerry Creed",
+    "puntaje": 84,
+    "sancionado": false,
+    "velocidad": 170
+  },
+  {
+    "aceleracion": 0.92,
+    "anguloDeGiro": 120,
+    "cilindrada": 2000,
+    "patente": "LKO710",
+    "peso": 1269.19,
+    "piloto": "Eddie Fontelles",
+    "puntaje": 66,
+    "sancionado": false,
+    "velocidad": 242
+  },
+  {
+    "aceleracion": 1.74,
+    "anguloDeGiro": 183,
+    "cilindrada": 1500,
+    "patente": "ZKL654",
+    "peso": 1750.01,
+    "piloto": "Dita Skegg",
+    "puntaje": 42,
+    "sancionado": false,
+    "velocidad": 216
+  },
+  {
+    "aceleracion": 0.5,
+    "anguloDeGiro": 203,
+    "cilindrada": 1500,
+    "patente": "RGB159",
+    "peso": 1378.04,
+    "piloto": "Dilly Toulch",
+    "puntaje": 79,
+    "sancionado": false,
+    "velocidad": 280
+  },
+  {
+    "aceleracion": 1.1,
+    "anguloDeGiro": 293,
+    "cilindrada": 1500,
+    "patente": "JHV223",
+    "peso": 1542.14,
+    "piloto": "Chloette Redit",
+    "puntaje": 81,
+    "sancionado": false,
+    "velocidad": 204
+  },
+  {
+    "aceleracion": 0.08,
+    "anguloDeGiro": 302,
+    "cilindrada": 2000,
+    "patente": "JOK851",
+    "peso": 1556.74,
+    "piloto": "Belia Jozwicki",
+    "puntaje": 25,
+    "sancionado": false,
+    "velocidad": 191
+  },
+  {
+    "aceleracion": 1.09,
+    "anguloDeGiro": 73,
+    "cilindrada": 3000,
+    "patente": "ODS523",
+    "peso": 1528.69,
+    "piloto": "Anita Fosberry",
+    "puntaje": 30,
+    "sancionado": false,
+    "velocidad": 282
+  }
+]

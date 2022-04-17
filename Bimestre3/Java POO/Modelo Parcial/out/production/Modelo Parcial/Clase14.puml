@@ -1,0 +1,53 @@
+@startuml
+
+class Capitan {
+    - nombre: String
+    - apellido: String
+    - matricula: String
+
+    + Capitan (nombre: String, apellido: String, matricula: String)
+}
+
+class Embarcacion {
+    - capitan: Capitan
+    - eslora: int
+    - precioBase: int
+    - valorAdicional: int
+    - anioFabricacion: int
+
+    + Embarcacion(precioBase:int, valorAdicional: int, anioFabricacion: int, eslora: int , capitan: Capitan)
+    + calcularMonto()
+}
+
+class Velero {
+    - cantidadMastiles: int
+    - veleroGrande: int
+
+    + Velero (precioBase:int, valorAdicional: int, anioFabricacion: int, eslora: int, capitan: Capitan, cantidadMastiles: int)
+    + evaluarMastiles (o: Object)
+}
+
+class Yate {
+    - cantCamarotes: int
+
+    + Yate (precioBase:int, valorAdicional: int, anioFabricacion: int, eslora: int , capitan: Capitan, cantCamarotes: int)
+    + compareTo (o: Object)
+}
+
+interface Comparable {
+    + compareTo (o: Object)
+}
+
+interface Evaluable {
+    + evaluarMastiles (o: Object)
+}
+
+
+
+Velero -up-|> Embarcacion
+Yate -up-|> Embarcacion
+Embarcacion *-right- Capitan
+Velero ..|> Evaluable
+Yate ..|> Comparable
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+
+left to right direction
+
+class tarjetaDebito{
+  - saldo: float
+  + nombre: String
+  + numero: String
+  + diaVencimiento: int
+  + mesVencimiento: int
+  + solicitarPago: boolean
+  - transaccionAprobada(): String
+  - transaccionRechada(): String
+  - pagar():void
+  + cobrar():void
+
+}
+
+class cajaDeAhorros{
+  - saldo: float
+  + nombre: String
+  + cbu: String
+  + alias: String
+  - retirar(monto:float): float
+  - depositar(monto:float): void
+  + recibirTransferencias(monto:float,nombre:String,CBU:String,alias:String):void
+  + abrirCajaDeAhorros(nombre:String,saldoInicial:float)
+  }
+
+
+
+
+
+
+@enduml

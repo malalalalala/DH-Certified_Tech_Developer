@@ -1,0 +1,42 @@
+@startuml
+
+class Instituto{
++generarInforme():String
++ afregarOfertaAcademica(oferta:)
+
+}
+
+abstract class OfertaAcademica{
+-nombre:String
+-descripcion:String
++calcularPrecio(): double
++{abstract}toString() : String
+}
+
+interface Presupuestable {
++{abstract} calcularPrecioTotal(): double
+}
+
+class Curso implements Presupuestable {
+-cargaHorarioMensual:double
+-duracionMeses:int
+-valorHora:double
++ {overrride} calcularPrecio():double
+}
+
+class ProgramaIntensivo implements Presupuestable {
+-bonificacionPorcentaje:double
++ {overrride} calcularPrecio():double
+}
+
+
+Instituto --> "*" OfertaAcademica:-ofertasAcademicas
+OfertaAcademica -->"*" Presupuestable :- cursos
+'OfertaAcademica -->"*" ProgramaIntensivo :- programas
+ProgramaIntensivo --> "*" Curso :- cursos
+
+
+'OfertaAcademica --*"*" Curso :- cursos
+'OfertaAcademica --* ProgramaIntensivo :- programas
+'ProgramaIntensivo --* Curso :- cursos
+@enduml

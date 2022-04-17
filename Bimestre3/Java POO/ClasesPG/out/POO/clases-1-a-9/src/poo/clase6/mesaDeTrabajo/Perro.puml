@@ -1,0 +1,37 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Perro
+
+class Perro {
+    - raza : String
+    - estaEnAdopcion : boolean
+    - anioNacimiento : int
+    - pesoEnKg : double
+    - tieneChip : boolean
+    - estaLastimado : boolean
+    - nombre : String
+    + Perro(raza, estaEnAdopcion, anioNacimiento, pesoEnKg, tieneChip, estaLastimado, nombre)
+    + Perro(estaEnAdopcion, pesoEnKg, nombre)
+    + mostrarEdad(anioActual : int) : void
+    + mostrarPuedePerderse() : void
+    + ponerEnAdopcion() : void
+    - calcularEdad(anioActual : int) : int
+
+}
+@enduml

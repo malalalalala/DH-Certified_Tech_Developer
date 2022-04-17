@@ -1,0 +1,76 @@
+@startuml
+
+'Ejercicio
+'Una empresa constructora necesita que se implemente un sistema para hacer el
+'seguimiento del desarrollo de proyectos.
+'Enunciado
+'
+'Cada proyecto tiene un nombre, un código numérico y una cantidad estimada de
+'horas/hombres (por cada trabajador necesarios para ser terminada). Los empleados
+'asignados, los cuales unos cobran fijo por proyecto (contratados estándar) y otros
+'que cobran fijo más un importe por hora trabajada (contratados por hora).
+'El costo de una tarea es el costo de los salarios que les corresponden a cada uno de
+'los empleados asignados por cada hora que tuvieron que trabajar.
+
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama CS9 - Empresa constructora
+
+class Proyecto {
+    - nombre : String
+    - codigo : int
+    - cdadHorasPorHombre : int
+    + empezar() : void
+    + diseniar() : void
+    + desarrollarProyecto() : void
+    + implementarProyecto() : void
+    + hacerSeguimiento() : void
+    + terminar() : void
+}
+
+class Empresa {
+    - nombre : String
+    - nroIdentificacion : int
+    + contratar(e : Empleado) : void
+    + despedir(e : Empleado) : void
+    + ofrecerServicio() : String
+}
+
+class Empleado {
+    - nombre : String
+    - sueldoFijo : double
+    + {abstract} calcularSueldo() : double
+    + trabajar() : void
+}
+
+class EmpleadoSueldoFijo {
+    + calcularSueldo() : double
+}
+
+class EmpleadoSueldoPorHora {
+    - importePorHora : double
+    - horasTrabajadas : int
+    + calcularSueldo() : double
+    + trabajar() : void
+}
+
+Proyecto "*" *-- "*" Empleado
+Empresa "1" *-- "*" Proyecto
+Empleado <|-- EmpleadoSueldoFijo
+Empleado <|-- EmpleadoSueldoPorHora
+@enduml

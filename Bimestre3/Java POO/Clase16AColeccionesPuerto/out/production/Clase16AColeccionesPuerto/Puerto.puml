@@ -1,0 +1,19 @@
+@startuml
+
+class Contenedor{
+-numero:String
+-pais:String
+-materialesPeligrosos:boolean
+
+
+}
+
+class Puerto{
+-contenedores:ArrayList<Contenedor>
++
+
+}
+
+Puerto  "1" o-- "*" Contenedor : administra
+
+@enduml

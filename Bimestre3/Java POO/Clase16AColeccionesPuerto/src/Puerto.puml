@@ -1,0 +1,35 @@
+@startuml
+
+class Contenedor implements Comparable{
+-numeroId:int
+-pais:String
+-materialesPeligrosos:boolean
+
++Contenedor(numeroId:int,pais:String,materialesPeligrosos:boolean)
++toString():String
++compareTo(Contenedor contenedor):int
++getNumeroId():int
++getPais():String
++getMaterialesPeligrosos():boolean
+}
+
+class Puerto{
+-contenedores:ArrayList<Contenedor>
+
++Puerto():Puerto;
++ingresarContenedores():void
++mostrarContenedor():void
++totalContenedoresPeligrosos():int
+
+}
+
+interface Comparable{
++compareTo(Contenedor contenedor):int
+}
+
+Puerto  "1" o-up- "*" Contenedor : administra
+
+@enduml
+
+'Preguntas uml: se necesita agregar los constructores?Si la flecha indica que la relacion es uno a muchos debo mostrar la colección como un atributo o con la flesa es suficiente y se da a entender?Está bien el nombre de la relación?En el constructor de puerton que no recibe nada, se muetra en alguna parte lo de new ArrayList?En el compareTo ya no se pone el parámetro o: Object sino el que verdareramente recibe que sería Contenedor contenedor? En alguna parte del uml se muestra que el comparable/interface es de tipo E =Contenedor?
+En el compareTo ya no se pone el parámetro o: Object sino el que verdareramente recibe que sería Contenedor contenedor? En alguna parte del uml se muestra que el comparable/interface es de tipo E =Contenedor?

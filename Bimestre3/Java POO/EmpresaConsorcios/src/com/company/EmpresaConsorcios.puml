@@ -1,0 +1,72 @@
+@startuml
+
+class Administracion{
++ {static} {final} PRECIO_M2 = 100
++ agregarUnidadFuncional(unidadFuncional: UnidadFuncional): void
++ mostrarUnidadesFuncionales(): void
++ Administracion(): Administracion
+}
+
+class Departamento{
++ {override} calcularExpensas(): double
++ Departamento(direccion: String, nombreDueño: String, m2Totales: double, impuesto: int): Departamento
++ {override} ToString(): String
+}
+
+class Local{
++ {override} calcularExpensas(): double
++ Local(direccion: String, nombreDueño: String, m2Totales: double, impuesto: int): Local
++ {override} ToString(): String
+}
+
+class Cochera{
++ {override} calcularExpensas(): double
++ Cochera(direccion: String, nombreDueño: String, m2Totales: double, impuesto: int): Cochera
++ {override} ToString(): String
+}
+
+class Shopping{
++ {override} calcularExpensas(): double
++ agregarLocal(local: UnidadFuncional): void
++ {override} ToString(): String
++ Shopping(direccion: String, nombreDueño: String, m2Totales: double, impuesto: int): Shopping
+}
+
+class FactoryUnidadFuncional{
++ {static} {final} CODIGO_COCHERA = "COCH"
++ {static} {final} CODIGO_DEPTO = "DEPTO"
++ {static} {final} CODIGO_LOCAL = "LOCAL"
++ {static} {final} CODIGO_SHOPPING = "SHOP"
++ {static} {final} IMPUESTO_COCHERA = 10
++ {static} {final} IMPUESTO_DEPTO = 5
++ {static} {final} IMPUESTO_LOCAL = 15
++ {static} {final} IMPUESTO_SHOPPING = 35
++ crearUnidadFuncional(direccion: String, nombreDueño: String, m2Totales: double, codigo: String): UnidadFuncional
+}
+
+abstract UnidadFuncional{
+- direccion: String
+- nombreDueño: String
+- m2Totales: double
+- impuesto: int
++ {abstract} calcularExpensas(): double
+}
+
+class FactoryUnidadFuncionalException{
++ FactoryUnidadFuncionalException()
++ FactoryUnidadFuncionalException(mensaje: String): void
++ {override} toString(): String
+}
+
+UnidadFuncional <|-- Cochera
+UnidadFuncional <|-- Departamento
+UnidadFuncional <|-- Local
+UnidadFuncional <|-right- Shopping
+
+Administracion *-- "*" UnidadFuncional : - unidadesFuncionales
+
+Shopping o-- "*" Local : - locales
+
+FactoryUnidadFuncional --> FactoryUnidadFuncionalException: throw
+
+@enduml

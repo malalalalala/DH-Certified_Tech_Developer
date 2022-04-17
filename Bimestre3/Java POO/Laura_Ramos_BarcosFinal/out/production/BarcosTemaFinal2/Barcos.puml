@@ -1,0 +1,53 @@
+@startuml
+
+class Barco{
++mostrarCargasInfo(): void
++agregarCarga():void
++Barco():Barco
+}
+
+abstract class Carga{
+-nombre:String
+
++getNombre():String
++{abstract} calcularPeso():double
+}
+
+class FactoryTiposDeCargas {
++{static} FACTOR_INCREMENTO_PESO:double
++{static} FACTOR_DECREMENTO_PESO:double
++{static} CODIGO_SLW:String
++{static} CODIGO_FST:String
+
++{static} CrearCargaSimple(nombre:String,pesoCarga:double,codigo:String):Simple
++{static} CrearContenedor(nombre:String,pesoPropioContenedor:double,cargasSimples:List<Simple>):Contenedor
+}
+
+class CodigoCargaSimpleExcepcion{
++ CodigoCargaSimpleExcepcion(message:String):CodigoCargaSimpleExcepcion
+}
+
+class Simple{
+-pesoCarga:double
+-factorVariablePeso:double
+
++Simple(nombre:String,pesoCarga:double,factorVariablePeso:double)
++ {override} calcularPeso(): double
++ {override} toString(): String
+}
+
+class Contenedor{
+-pesoPropio:double
+
++Contenedor(nombre:String,pesoPropioContenedor:double,cargasSimples List<Simple>)
++ {override} calcularPeso(): double
++ {override} toString(): String
+}
+
+Barco o-- "*" Carga :-cargas
+Simple  -up-|> Carga
+Contenedor -up-|> Carga
+Contenedor o-- "*" Simple :-cargasSimples
+FactoryTiposDeCargas ..> CodigoCargaSimpleExcepcion:throws
+
+@enduml

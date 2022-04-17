@@ -1,0 +1,45 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Hallazgos
+
+class Auditor {
+    - nombre : String
+    - apellido : String
+    + buscarDeficiencia(area : String) : Hallazgo
+}
+
+class Hallazgo {
+    - areaCompania : String
+    - fecha : String
+    + esCritico() : String
+    - esCritico() : boolean
+}
+
+class Compromiso {
+    - nombreResponsable : String
+    - apellidoResponsable : String
+    - descripcion : String
+    - fecha : String
+    + agregarDescripcion(descripcion : String)
+    + modificarDescripcion(descripcion : String)
+}
+
+Auditor "usa". Hallazgo
+Hallazgo "1" *-- "0..5" Compromiso
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+class Revista{
+-  nombre:String
+-  codigo:String
+-  periodicidad:String
+-  edicion:Edicion
++  Revista(nombre:String,codigo:String, periodicidad:String)
+  }
+
+class Edicion{
+-  fechaEdicion:String
+-  precio:Double
+- numeroEdicion:int
+- articulo:list<articulo>
++ Edicion(fechaEdicion:String,precio:Double,numeroEdicion:int)
+}
+
+class Articulo{
+- titulo:String
+- tema:String
+- autor:String
+- fechaArticulo:String
++ Articulo(titulo:String,tema:String, autor:String,fechaArticulo:String)
+}
+
+@enduml

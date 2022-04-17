@@ -1,0 +1,57 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Pedido
+
+class Negocio {
+    - nombre : String
+    + darDeAltaCliente(nombre, telefono) : void
+    + darDeBajaCliente(telefono) : void
+    + mostrarArticulosEnStock() : void
+}
+
+class Cliente {
+    - nombre : String
+    - telefono : String
+    - domicilio : String
+    + hacerPedido() : void
+    + cancelarPedido() : void
+    + reclamarPedido() : void
+    + pagarPedido() : void
+}
+
+class Pedido {
+    - fecha : String
+    - nombreCliente : String
+    - nombresArticulos : List<String>
+    + agregarArticulo(articulo) : void
+    + sacarArticulo(articulo) : void
+    + calcularPrecioFinal() : double
+}
+
+class Articulo {
+    - nombre : String
+    - precio : double
+    + calcularPrecioConImpuestos() : double
+}
+
+Negocio "1" o-- "1..*" Articulo
+Negocio "1" *-- "0..*" Cliente
+Cliente "1" *-- "0..*" Pedido
+
+@enduml

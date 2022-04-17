@@ -1,0 +1,29 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Diagrama de clase - Cliente
+
+class Cliente {
+    - numeroCliente : String
+    - nombre : String
+    - deuda : double
+    + Cliente(numero : String, nombre : String)
+    + incrementarDeuda(Double valor) : void
+    + pagarDeuda() : void
+}
+@enduml

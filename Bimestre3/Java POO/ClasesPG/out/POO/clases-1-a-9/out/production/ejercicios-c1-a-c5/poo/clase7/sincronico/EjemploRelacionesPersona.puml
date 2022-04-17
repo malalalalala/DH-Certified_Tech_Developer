@@ -1,0 +1,42 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 10
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor DarkBlue
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor DarkBlue
+}
+
+title Ejemplo diagrama de clase - Relaciones
+
+'Imprescindible, si se destruye el objeto, mueren sus composiciones
+Persona "1" *--u "2" Pierna
+Persona "1" *--u "2" Brazo
+Persona "1" *--u "1" Cerebro
+note left
+    Imprescindible, si se destruye el objeto, mueren sus composiciones
+end note
+
+'Necesaria, si se destruye el objeto, siguen vivas sus agregaciones
+Persona o--l "Remera"
+note left
+    Necesaria, si se destruye el objeto, siguen vivas sus agregaciones
+end note
+Persona o--r "Pantalon"
+
+'Prescindible, si se destruye el objeto, siguen vivas sus asociaciones
+Persona "1" -- "0..*" TarjetaCredito
+Persona "1" -- "0..*" TarjetaDebito
+note left
+    Prescindible, si se destruye el objeto, siguen vivas sus asociaciones
+end note
+@enduml

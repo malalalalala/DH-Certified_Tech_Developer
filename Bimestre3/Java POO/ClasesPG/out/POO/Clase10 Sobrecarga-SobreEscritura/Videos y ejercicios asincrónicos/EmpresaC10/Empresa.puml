@@ -1,0 +1,56 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam backgroundColor White
+skinparam RoundCorner 5
+skinparam Shadowing true
+
+skinparam class {
+    ArrowColor Purple
+    BackgroundColor LightPink
+    BorderColor Purple
+}
+
+skinparam note {
+    BackgroundColor LightYellow
+    BorderColor Purple
+}
+
+title POO-CS10A - Ejercicio PG:Empresa
+
+class Empleado{
+-nombre:String
+-apellido:String
+-dni:String
++trabajar():void
++descansar():void
++toString():String
+}
+
+class EmpleadoRRHH{
+-altasLogradas:int
++trabajar():void
+}
+
+class EmpleadoMarketing{
+-area:String
++trabajar():void
++trabajar(int horasExtras):void
+}
+
+class EmpleadoProduccion{
+-tiempoExperiencia:int
++trabajar():void
+}
+
+EmpleadoRRHH -up-|> Empleado
+EmpleadoMarketing -up-|> Empleado
+EmpleadoProduccion -up-|> Empleado
+
+'package "Empleado" #DDDDDD {
+'EmpleadoRRHH -up-|> Empleado
+'EmpleadoMarketing -up-|> Empleado
+'EmpleadoProduccion -up-|> Empleado}
+
+
+
+@enduml

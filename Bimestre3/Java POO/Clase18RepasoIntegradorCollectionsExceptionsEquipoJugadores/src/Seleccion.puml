@@ -1,0 +1,28 @@
+@startuml
+
+class Jugador {
+    - posicion: String
+    - apellido: String
+    - numeroCamiseta: String
+    - convocatoria: String
+
+    + Jugador(posicion: String, apellido: String, numeroCamiseta: String)
+    + setConvocatoria(convocatoria: String): void
+    - setConvocatoriasPosibles(): void
+}
+
+class Plantel {
+    + obtenerReservas(): List<Jugador>
+    + cantidad(posicion: String): int
+}
+
+class ConvocatoriaInvalidaError
+
+Plantel --> "*" Jugador: - jugadores
+Jugador ..> ConvocatoriaInvalidaError
+
+'como acá no puse la lista de jugadores como atributo entonces debo especificar en la flecha el nombre del atributo, su factor de visibilidad y qué tipo de dato es que lo dice hacia donde apunta la flecha, y la cardinalidad
+
+'Jugador usa una excepción, porque hace un new de esa clase, no la tiene ni como atributo ni la hera ni la implementa
+
+@enduml

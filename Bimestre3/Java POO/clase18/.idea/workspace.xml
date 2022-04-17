@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66bb5764-daff-4cce-9af2-ff453918136f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DH-CertifiedTechDeveloper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdminExamenes/.idea/SimulacroParcial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdminExamenes/AdminExamenes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/C22ACompositeComprable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/src/Combo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/src/Comprable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/src/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C22ACompositeComprable/src/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/CL16AColeccionesEmpresaEmpleados.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/src/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CL16AColeccionesEmpresaEmpleados/src/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/Clase16AColeccionesPuerto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/src/Contenedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/src/Ejercicio Colecciones Alumnos.docx (1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/src/Puerto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/src/Puerto.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase16AColeccionesPuerto/src/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/Clase17ManejoExcepcionesComercio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/src/ClienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase17ManejoExcepcionesComercio/src/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase18RepasoIntegradorCollectionsExceptionsEquipoJugadores/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase18RepasoIntegradorCollectionsExceptionsEquipoJugadores/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase18RepasoIntegradorCollectionsExceptionsEquipoJugadores/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase18RepasoIntegradorCollectionsExceptionsEquipoJugadores/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase18RepasoIntegradorCollectionsExceptionsEquipoJugadores/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase22sTrencito/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase22sTrencito/Clase22sTrencito.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/Clase11 Clases abstractas/clase-11-banco/clase-11-banco.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Asteroide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Nave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Objeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/CuentaCorriente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/EmpresaC10/EmpleadoC10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/EmpresaC10/EmpleadoC10Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/EmpresaC10/EmpleadoMarketing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/EmpresaC10/EmpleadoProduccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/EmpresaC10/EmpleadoRRHH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/EmpresaC10/Empresa.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/sobrecarga/CuentaClaseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/sobrecarga/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/sobrecarga/MainEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/sobrecarga/MainVendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/Videos y ejercicios asincrónicos/sobrecarga/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase10 Sobrecarga-SobreEscritura/clase-10-naves/clase10-naves.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/Animal.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/AnimalClase11A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/CuentaAbstractaClase11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/CuentaComitente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/CuentaCorriente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/MainAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase11Abstractas/Perro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase13AInterfaces/Amigable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase13AInterfaces/PersonaInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase14SimulacrosParcial/DH-Clase-14 (simulacro parcial)/DH-Clase-14 (simulacro parcial).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase8/Mesa de trabajo/Clinica.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase8/Mesa de trabajo/Colegio.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/Clase8/Mesa de trabajo/EquipoFutbol.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c2/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c2/Clase2IntroJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c2/Clase2Mesa5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c2/Clase2Mesa5Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c2/Clase2Mesa5Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c2/Clase2Mesa5Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c2/Funciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c3/Clase3Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c3/Clase3Mesa7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c3/Clase3Mesa7Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c3/Ejercicio talleres 3.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c4/cajaDeAhorros (1).drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c4/cheque.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c4/platum.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c4/punto3.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c4/punto4.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/Articulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/Camion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/ClienteClaseEnVivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/MainArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/MainCamion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/MainUsuarioJuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c5/UsuarioJuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c6/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c6/Impresora.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c6/MainImpresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Chofer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Editorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Impresora .puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/MainChofer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/MainImpresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Revistas.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Revistas.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Rueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/Televisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/cajaDeAhorros.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/c7/cajaDeAhorros.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/clase-15-parcial/clase-15-parcial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/clases-1-a-9/clases-1-a-9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase2Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase2Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase2Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase3Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase3Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase3Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/POO/ejercicios_resueltos/Clase3Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/out/production/proy1/clase-10-naves/clase10-naves.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/proy1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/src/Navetur.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesPG/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/Composite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Excepciones/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Excepciones/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Excepciones/DH-Excepciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-ExcepcionesPropias/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-ExcepcionesPropias/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-ExcepcionesPropias/DH-ExcepcionesPropias.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-LanzarExcepciones/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-LanzarExcepciones/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-LanzarExcepciones/DH-LanzarExcepciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Operaciones-Sobre-Colecciones/DH-Operaciones-Sobre-Colecciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Recorriendo-Colecciones/DH-Recorriendo-Colecciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Relaciones1aMuchos/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Relaciones1aMuchos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DH-Relaciones1aMuchos/DH-Relaciones1aMuchosOrdenados.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjemploFactoryMethod19/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjemploFactoryMethod19/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjemploFactoryMethod19/EjemploFactoryMethod19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/EquipoFutbolCollectionsC16A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/src/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/src/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/src/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EquipoFutbolCollectionsC16A/src/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mesa1Factory/Mesa1Factory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mesa1Factory/src/Caja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mesa1Factory/src/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modelo Parcial/Modelo Parcial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacientes 2/DH-ExcepcionesPaciente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacientes 3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pacientes/DH-ExcepcionesPaciente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PoliciaMarcosPaz 2/PoliciaMarcosPaz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Puerto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Puerto/Puerto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RAMOS-LAURA 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RAMOS-LAURA 2/PoliciaMarcosPaz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RAMOS-LAURA/PoliciaMarcosPaz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tesla/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tesla/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tesla/Tesla.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trencito/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trencito/Trencito.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase 17/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase 18/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase 18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase 18/clase 18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase 19/clase 19/clase 19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase-11-banco/clase-11-banco.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase-15-parcial/clase-15-parcial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase16A Colecciones Equipo Futbol/clase15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase16MesaDeTrabajo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase16MesaDeTrabajo/clase16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/clase17ManejoExcepcionesclinica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/src/com/company/PacienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase17ManejoExcepcionesclinica/src/com/company/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase19/clase19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claseApoyoFinal/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claseApoyoFinal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claseApoyoFinal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claseApoyoFinal/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claseApoyoFinal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../claseApoyoFinal/claseApoyoFinal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hola/hola.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parcialCamada6 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parcialCamada6 2/parcialCamada6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Downloads.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Ecommerce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/Imagen para examen.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/basica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/basica1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/basica2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/basica3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/contacto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/css(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/googlelogo_dark_clr_74x24px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/m=viewer_base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/nav2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/pading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/rs=AMjVe6gj7ttbdZ4UOn7uGXHIHtqAKhgvVA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Examen Parcial FE1 Camada 6_files/text-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/Ellipse+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/GitHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/batman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/harley-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-batman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-harley.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-superman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-wonder-woman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/store-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/superman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/assets/img/wonder-woman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/css/add-hero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/css/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/pages/add-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/pages/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Heroes_Ecommerce-C16/pages/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/Ellipse+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/GitHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/batman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/harley-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-batman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-harley.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-superman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-wonder-woman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/superman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/assets/img/wonder-woman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/Responsive_Heroes-C14/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/batman_cv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/clase_19_mesa/css/style_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/clase_19_mesa/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/clase_19_mesa/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/clase_19_mesa/referenciaAcrtividad.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/lemon_pie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/maquetacion_clase6_frontendi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/my_cv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/churrasquito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/comedero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/huesito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/location-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/mail-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/menu-icon 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/phone-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/images/send-email-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/petshop-improved/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/pizza-and-front-C11/assets/images/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/pizza-and-front-C11/assets/images/PizzaFalling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/pizza-and-front-C11/assets/images/delivery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/pizza-and-front-C11/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/pizza-and-front-C11/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Formularios accesibles.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Formularios avanzados.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Formularios.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Items .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Media queries.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Medidas relativas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Pseudoselectores l.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Radio Button y Check Boxes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/Viewports.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/3. Guía de uso GIT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Colores.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Ejes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Etiquetas de texto.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Figma.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Flex Estructura básica.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Fondos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Fuentes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Fuentes_ Genéricas y Google Fonts.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Git, paso a paso.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Inspector de Propiedades.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Introducción a CSS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Introducción a Flexbox.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Introducción a la semántica (Nuevo).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Listas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Modelo de caja.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Position.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Rutas, hipervínculos e imágenes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Sticky.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/VSC y carpetas (nuevo template).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/Z-index.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/_Etiquetas y atributos (Nuevo).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/slides/parcial1/_Introduccíon_.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/images/batman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/images/batman-picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/images/harley-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/images/harley-picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/images/heart-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/superheroes-C10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front_end_1/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Guía de uso GIT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/application-certificate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/autoindex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/blank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/go-previous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/media-optical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/text-x-generic-template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Laura Ramos Mesa 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Primer_Examen_Laura_Ramos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/Práctica comparativa.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/camada6_roberto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/clase5_II" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/Armar-pc.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/Atajos de teclado.pdf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Accion/Los vengadores" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Accion/Mision Imposible" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Accion/Rapido y furioso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Comedia/La mascara" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Comedia/Que paso ayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Cars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Intensamente" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/La dama y el vagabundo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Madagascar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Pocahontas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Diario de una pasion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Orgullo y prejuicio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Titanic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Yo antes de ti" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Terror/Annabelle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Terror/El exorcista" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Terror/El juego del miedo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/Peliculas/Terror/IT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/repaso_clase1y2/git_bash_y_vscode/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/repaso_clase1y2/historia_de_la_informatica/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/repaso_clase1y2/interfaces_de_usuario/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/repaso_clase1y2/servidores/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/DH/repaso_clase1y2/software_y_hardware/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/documentacion/atajos-de-teclado" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/ordenar-carpetas/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/ordenar-carpetas/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/ordenar-carpetas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/push-pullpractice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/Componentes de red.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/Framework, IDEs, Editores de Texto, Librerias.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/Medios de transmisión.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/Velocidades de internet.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/modelo osi flujo de datos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Algoritmos de planificacion de CPU .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Analizando al cerebro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Armado de computadoras.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Arquitectura de Von Neumann.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Comandos de terminal.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Comandos git.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Componentes de la computadora.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Diferencias entre Windows y Linux.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Github paso a paso.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Práctica de Algoritmos de planificación de CPU .pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Registros,  caché y memorias RAM.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Requerimientos previos.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Servicios que ofrecen los sistemas operativos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../intro_a_la_informatica/slides/parcial1/Sistema operativo.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21QlSYWXc8smrVEHbRA1jy5DIzd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="clase18" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66bb5764-daff-4cce-9af2-ff453918136f" name="Changes" comment="" />
+      <created>1637881194939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637881194939</updated>
+      <workItem from="1637881196156" duration="3609000" />
+      <workItem from="1637933187023" duration="39000" />
+      <workItem from="1637974890856" duration="4794000" />
+      <workItem from="1638994897113" duration="2950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+@startuml
+Examen *-- Alumno
+Examen <|-- Final
+Examen <|-- Parcial
+Comparable <|.. Final
+
+abstract class Examen{
+- alumno: Alumno
+- titulo: String
+- temaDeExamen: String
+- enunciado: String
+- nota: double
++ Examen(alumno: Alumno, titulo: String,
+    temaDeExamen: String, enunciado: String,
+    nota: double)
++ estaAprobado(): boolean
+}
+
+class Alumno {
+- nombre: String
+- apellido: String
+- legajo: String
++ Alumno(nombre: String, apellido: String,
+    legajo: String)
+}
+
+class Parcial{
+- numeroDeUnidad: int
+- numeroDeReintentos: int
++ Parcial(numeroDeUnidad:int,numeroDeReintentos: int,
+    alumno: Alumno, titulo: String,
+    temaDeExamen: String, enunciado: String, nota: double)
++ esRecuperable(): boolean
+}
+
+class Final{
+- notaDelOral: double
+- descripcionDelTema: String
++ Final(notaDelOral: double,
+    descripcionDelTema: String, alumno: Alumno,
+    titulo: String, temaDeExamen: String,
+    enunciado: String, nota: double)
+}
+
+interface Comparable{
++ compareTo(o: Object): boolean
+}
+
+@enduml

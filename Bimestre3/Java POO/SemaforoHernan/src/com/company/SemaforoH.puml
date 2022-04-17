@@ -1,0 +1,46 @@
+@startuml
+
+class Semaforo{
+  + setEstado(estadoSemaforo estado): void
+  + getEstado(): EstadoSemaforo estado
+  + Semaforo(): Semaforo
+  + mostrarAviso(): void
+  + cambiarEstado(): void
+}
+
+interface EstadoSemaforo {
+  + {abstract} mostrarAviso(): void
+  + {abstract} cambiarEstado(): void
+}
+
+class Rojo{
+  - semaforo: s
+  + Rojo(semaforo s): Rojo
+  + mostrarAviso(): void
+  + cambiarEstado(): void
+}
+
+class Amarillo{
+  - semaforo: s
+  + Amarillo(semaforo s): Amarillo
+  + mostrarAviso(): void
+  + cambiarEstado(): void
+}
+
+class Verde{
+  - semaforo: s
+  + Verde(semaforo s): Verde
+  + mostrarAviso(): void
+  + cambiarEstado(): void
+}
+
+
+Semaforo "1" -right-> "1" EstadoSemaforo
+
+Rojo .up.|> EstadoSemaforo
+Amarillo .up.|> EstadoSemaforo
+Verde .up.|> EstadoSemaforo
+
+
+
+@enduml

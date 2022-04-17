@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>register-heroes</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header-discounts">
+            <span>20% de descuento en todos los productos!</span>
+        </nav>
+        <nav class="header-title"><img src="../assets/img/store-logo.png" alt="logo" class="logo">
+            Heroes Store</nav>
+    </header>
+    <section class="register-form">
+        <form action="" class="form">
+            <h1 class="register-title">Registro</h1>
+            <input type="text" name="user-name" id="user-name" value="" placeholder="Nombre y Apellido"
+                class="register-input">
+            <input type="email" name="email" id="email" value="" placeholder="Correo Electrónico"
+                class="register-input">
+            <input type="password" name="password" id="password" value="" placeholder="Contraseña"
+                class="register-input">
+            <select class="register-input">
+                <option value="" hidden selected disabled>País</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <div class="buttons">
+                <input type="reset" value="Resetear" class="reset-button register-buttons" />
+                <input type="submit" value="Registrar" class="register-button register-buttons" />
+            </div>
+        </form>
+        <a href="login.html" class="create-account"><span class="question-text">¿Ya tenés una
+                cuenta?</span><span class="enter-text"> Ingresá</span></a>
+    </section>
+    <footer class="footer">
+        <span class="disclaimer">Todos los derechos reservados a FRONT END 1</span>
+    </footer>
+</body>
+
+</html>

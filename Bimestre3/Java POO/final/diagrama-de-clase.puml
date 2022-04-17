@@ -1,0 +1,132 @@
+@startuml diagrama-de-clase
+
+!define DARK_PURPLE #59339D
+!define LIGHT_PURPLE #CCB1FD
+
+'General
+hide circle
+skinparam shadowing false
+skinparam backgroundColor black
+skinparam componentStyle uml2
+skinparam dpi 300
+skinparam RoundCorner 5
+skinparam padding 2
+
+'Default'
+skinparam default {
+  'Font Style
+  FontColor Black
+  FontName "Lucida Console"
+  FontSize 12
+  FontStyle plain
+  MonospacedFontName "Lucida Console"
+}
+
+'Title (inherits from Default)
+skinparam title {
+  'Font Style (inherits from Default)
+  FontSize 20
+  FontColor LIGHT_PURPLE
+
+  'Border Color
+  BackgroundColor transparent
+  BorderColor White
+  BorderRoundCorner 0
+  BorderThickness 0
+}
+
+'Arrow
+skinparam arrow {
+  'Font Style (inherits from Default)
+  FontColor LIGHT_PURPLE
+  FontSize 14
+
+  'Color
+  Color LIGHT_PURPLE
+  LollipopColor Black
+  Thickness 1
+  MessageAlignment center
+}
+
+'Note
+skinparam note {
+  'Font Style
+  FontColor Black
+  FontSize 12
+  FontStyle plain
+
+  'Color
+  BackgroundColor white
+  BorderColor DARK_PURPLE
+  BorderThickness 1
+}
+
+'Class
+skinparam class {
+  'Font Style (inherits from Default)
+  FontSize 16
+  StereotypeFontColor Black
+  StereotypeFontSize 14
+  StereotypeFontStyle plain
+
+  'Color
+  FontColor LIGHT_PURPLE
+  BackgroundColor LIGHT_PURPLE
+  HeaderBackgroundColor DARK_PURPLE
+  BorderColor DARK_PURPLE
+  BorderThickness 1
+
+  'Attributions
+  AttributeFontColor Black
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  AttributeIconSize 0
+}
+
+'Interface Class
+skinparam interface {
+  FontStyle italic
+}
+
+title Diagrama de Clase - Valentina Varela Rodríguez
+
+abstract class Servicio<<abstract>> {
+    - nombre : String
+    - descripcion : String
+    + {abstract} calcularPrecio() : double
+    + {abstract} toString() : String
+}
+
+class Combo extends Servicio {
+    - descuento : double
+    + agregar(servicio : Servicio) : void
+    + calcularPrecio() : double
+    + toString() : String
+}
+
+class ServicioSimple extends Servicio {
+    - precio : double
+    + calcularPrecio() : double
+    + toString() : String
+}
+
+class Empresa {
+    - nombre : String
+    + mostrarServicios() : void
+    + agregar(servicio : Servicio) : void
+}
+
+class FabricaDeServicios {
+    - {static} instancia : FabricaDeServicios
+    - FabricaDeServicios()
+    + {static} obtenerInstancia() : FabricaDeServicios
+    + crearServicio(tipo : String) : Servicio
+}
+
+Combo "1" o-- "*" Servicio
+Empresa "1" *-- "*" Servicio
+FabricaDeServicios .> Servicio : crea
+FabricaDeServicios .u> TipoDeServicioIncorrectoException : throws
+TipoDeServicioIncorrectoException --u|> IllegalStateException
+
+@enduml
