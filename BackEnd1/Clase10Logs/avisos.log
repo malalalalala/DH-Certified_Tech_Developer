@@ -1,0 +1,6 @@
+[2022-05-2519:41:40] [ INFO ] [class Main:28] el promedio de la lista es4.0
+[2022-05-2519:41:40] [ INFO ] [class Main:30] la lista tiene más de 5 elementos
+[2022-05-2519:42:33] [ INFO ] [class Main:28] el promedio de la lista es6.0
+[2022-05-2519:42:33] [ INFO ] [class Main:30] la lista tiene más de 5 elementos
+[2022-05-2519:42:33] [ INFO ] [class Main:32] la lista tiene más de 10 elementos
+[2022-05-2519:44:14] [ ERROR] [class Main:37] La lista no tiene elementos, no es posible la división por cero

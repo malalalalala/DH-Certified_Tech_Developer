@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+'relación de asociación conmigo mismo, no es necesario poner el atributo'
+'el mail es una relación de uso, como lo tengo como parámetro en todo no lo tengo que poner en el uml'
+abstract class Manejador{
+'-siguienteManejador:Manejador
++{abstract} comprobarEmail(mail:Mail):String
+}
+
+class ManejadorComercial extends Manejador{
++comprobarEmail(mail:Mail):String
+}
+
+class ManejadorGerencial extends Manejador{
++comprobarEmail(mail:Mail):String
+}
+
+class ManejadorTecnica extends Manejador{
++comprobarEmail(mail:Mail):String
+}
+
+class ManejadorSpam extends Manejador{
++comprobarEmail(mail:Mail):String
+}
+
+class CompruebaMail{
+-inicial:Manejador
++iniciarComprobacion(mail:Mail):String
+}
+
+class Mail{
+-origen:String
+-destino:String
+-tema:String
+}
+
+'Manejador o-- "*" Manejador
+Manejador  -up-|> Manejador :siguienteManejador
+@enduml

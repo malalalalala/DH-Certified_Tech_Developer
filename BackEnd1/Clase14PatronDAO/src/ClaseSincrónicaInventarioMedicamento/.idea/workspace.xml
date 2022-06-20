@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84acc927-8bf7-4197-b3db-392d104ce02d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClaseSincrónicaInventarioMedicamento.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/src/main/java/com/example/Clase25asincronicaMedicamentos/controller/MedicamentoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/src/main/java/com/example/Clase25asincronicaMedicamentos/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/src/main/java/com/example/Clase25asincronicaMedicamentos/dao/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/src/main/java/com/example/Clase25asincronicaMedicamentos/dao/impl/MedicamentoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/src/main/java/com/example/Clase25asincronicaMedicamentos/model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/src/main/java/com/example/Clase25asincronicaMedicamentos/service/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Clase25asincronicaMedicamentos/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/main/java/dao/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/dao/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/dao/impl/DomicilioDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/dao/impl/OdontologoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/dao/impl/PacienteDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/model/Domicilio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/model/Odontologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/service/DomicilioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/service/OdontologoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/service/PacienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/java/com/example/clinicadental/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/test/java/com/example/clinicadental/OdontologoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../clinica-dental/src/test/java/com/example/clinicadental/PacienteServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/avisos.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/avisos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/main/java/dao/impl/OdontologoDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/main/java/dao/impl/OdontologoDaoH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/main/java/dao/impl/PacienteDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/main/java/dao/impl/PacienteDaoH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/main/java/model/Odontologo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/main/java/model/Odontologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/test/java/OdontologoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/test/java/OdontologoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/test/java/PacienteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/src/test/java/PacienteServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/classes/dao/impl/OdontologoDaoH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/classes/dao/impl/OdontologoDaoH2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/classes/dao/impl/PacienteDaoH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/classes/dao/impl/PacienteDaoH2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/classes/model/Odontologo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/classes/model/Odontologo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/test-classes/OdontologoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MavenPacientesDomicilio/target/test-classes/OdontologoServiceTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AVZdlhWqAFAQWuQvvRKuEBTYGE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Laura_Ramos/Desktop/Cursos/DH-CertifiedTechDeveloper/BackEnd1/Clase14PatronDAO/src/ClaseSincrónicaInventarioMedicamento",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84acc927-8bf7-4197-b3db-392d104ce02d" name="Changes" comment="" />
+      <created>1655096802951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655096802951</updated>
+      <workItem from="1655096804410" duration="1929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
