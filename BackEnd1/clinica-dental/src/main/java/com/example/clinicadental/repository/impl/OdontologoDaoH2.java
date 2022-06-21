@@ -130,6 +130,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             //2 Crear una sentencia
             psDelete=configuracion.conectarConBaseDeDatos().prepareStatement(SQL_DELETE);
             psDelete.setLong(1,id);
+            logger.error("eliminando del registro a la BD con id" +id);
 
             //3 Ejecutar una sentencia SQL
             psDelete.executeUpdate();
@@ -159,7 +160,6 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
             //Armar objeto con datos obtenidos
             while (rs.next()) {
-                logger.info("buscando la información del odontólogo");
 
                 Integer idOdontologo = rs.getInt(1);
                 Integer nroMatricula = rs.getInt(2);
@@ -197,10 +197,12 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
             //3 Ejecutar una sentencia SQL
             psUpdate.executeUpdate();
+            logger.info("se actualizó el odontólogo "+odontologo);
             psUpdate.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
+            logger.info("error actualizando el odontólogo "+odontologo +e);
         }
         return odontologo;
     }

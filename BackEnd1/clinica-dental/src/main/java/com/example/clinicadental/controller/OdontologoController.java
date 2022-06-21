@@ -73,6 +73,7 @@ public class OdontologoController {
 
     @PutMapping
     public ResponseEntity<Odontologo> actualizar(@RequestBody Odontologo odontologo){
+
         return ResponseEntity.ok(odontologoService.actualizar(odontologo));
     }
 

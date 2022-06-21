@@ -38,6 +38,7 @@ window.addEventListener('load', function () {
                         odontologo.id +
                         '</button>';
 
+                    console.log('id odontólogo ',odontologo.id)
                     //armamos cada columna de la fila
                     //como primer columna pondremos el boton modificar
                     //luego los datos de la odontologo

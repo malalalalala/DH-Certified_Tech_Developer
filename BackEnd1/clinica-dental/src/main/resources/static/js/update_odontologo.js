@@ -1,12 +1,14 @@
 window.addEventListener('load', function () {
 
+    console.log('entré ac{a')
 
     //Buscamos y obtenemos el formulario donde estan
     //los datos que el usuario pudo haber modificado del odontolohgo
     const formulario = document.querySelector('#update_odontologo_form');
 
     formulario.addEventListener('submit', function (event) {
-        let peliculaId = document.querySelector('#odontologo_id').value;
+        let odontologoId = document.querySelector('#odontologo_id').value;
+
 
         //creamos un JSON que tendrá los datos del odontologo
         //a diferencia de un odontologo nuevo en este caso enviamos el id
@@ -39,6 +41,8 @@ window.addEventListener('load', function () {
     //se encarga de llenar el formulario con los datos del odontologo
     //que se desea modificar
     function findBy(id) {
+        console.log('llegue aqui')
+        console.log('id',id)
           const url = '/odontologos'+"/"+id;
           const settings = {
               method: 'GET'
@@ -46,6 +50,7 @@ window.addEventListener('load', function () {
           fetch(url,settings)
           .then(response => response.json())
           .then(data => {
+              console.log('data',data)
               let odontologo = data;
               document.querySelector('#odontologo_id').value = odontologo.id;
               document.querySelector('#nombre').value = odontologo.nombre;
@@ -54,6 +59,9 @@ window.addEventListener('load', function () {
               //el formulario por default esta oculto y al editar se habilita
               document.querySelector('#div_odontologo_updating').style.display = "block";
           }).catch(error => {
-              alert("Error: " + error);
+
+              console.log('llegue aca')
+              console.log('error',error)
+              // alert("Error: " + error);
           })
       }

@@ -41,7 +41,8 @@ window.addEventListener('load', function () {
             //armamos cada columna de la fila
             //como primer columna pondremos el boton modificar
             //luego los datos de la pelicula
-            //como ultima columna el boton eliminar
+            //como ultima columna el boton eliminarla
+
             peliculaRow.innerHTML = '<td>' + updateButton + '</td>' +
                     '<td class=\"td_titulo\">' + pelicula.titulo.toUpperCase() + '</td>' +
                     '<td class=\"td_categoria\">' + pelicula.categoria.toUpperCase() + '</td>' +

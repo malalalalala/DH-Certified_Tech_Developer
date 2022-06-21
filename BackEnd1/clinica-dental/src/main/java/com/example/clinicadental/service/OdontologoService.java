@@ -23,7 +23,7 @@ public class OdontologoService {
     }
 
     public Odontologo guardar(Odontologo odontologo){
-        //delegarle la responsabilidad de guardar al DAO
+        //delegarle la responsabilidad de guardar al Repository
         return  odontologoIDao.guardar(odontologo);
     }
 
@@ -31,7 +31,7 @@ public class OdontologoService {
         return odontologoIDao.buscar(id);
     }
     public List<Odontologo> buscarTodos(){
-        //delegarle la responsabilidad de listarTodos al DAO
+        //delegarle la responsabilidad de listarTodos al Repository
         return odontologoIDao.buscarTodos();
     }
 
