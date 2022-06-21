@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22d4b302-f5bf-4920-a6c0-e87d7104e2d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Bimestre 1/front_end_1/Ecommerce/confing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bimestre 1/front_end_1/batman_cv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bimestre 1/front_end_1/batman_cv/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bimestre 1/front_end_1/petshop-improved/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bimestre 1/front_end_1/petshop-improved/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Ecommerce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/Imagen para examen.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/basica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/basica1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/basica2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/basica3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/contacto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/css(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/googlelogo_dark_clr_74x24px.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/m=viewer_base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/nav2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/pading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/rs=AMjVe6gj7ttbdZ4UOn7uGXHIHtqAKhgvVA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Examen Parcial FE1 Camada 6_files/text-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/Ellipse+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/GitHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/batman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/harley-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-batman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-harley.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-superman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/liga-justicia-wonder-woman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/store-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/superman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/assets/img/wonder-woman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/css/add-hero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/css/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/pages/add-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/pages/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Heroes_Ecommerce-C16/pages/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/Ellipse+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/GitHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/batman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/harley-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-batman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-harley.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-superman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/liga-justicia-wonder-woman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/superman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/assets/img/wonder-woman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/Responsive_Heroes-C14/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/batman_cv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/clase_19_mesa/css/style_base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/clase_19_mesa/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/clase_19_mesa/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/clase_19_mesa/referenciaAcrtividad.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/lemon_pie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/maquetacion_clase6_frontendi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/my_cv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/churrasquito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/comedero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/huesito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/location-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/mail-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/menu-icon 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/phone-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/images/send-email-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/petshop-improved/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/pizza-and-front-C11/assets/images/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/pizza-and-front-C11/assets/images/PizzaFalling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/pizza-and-front-C11/assets/images/delivery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/pizza-and-front-C11/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/pizza-and-front-C11/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Formularios accesibles.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Formularios avanzados.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Formularios.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Items .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Media queries.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Medidas relativas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Pseudoselectores l.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Radio Button y Check Boxes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/Viewports.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/3. Guía de uso GIT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Colores.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Ejes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Etiquetas de texto.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Figma.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Flex Estructura básica.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Fondos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Fuentes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Fuentes_ Genéricas y Google Fonts.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Git, paso a paso.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Inspector de Propiedades.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Introducción a CSS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Introducción a Flexbox.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Introducción a la semántica (Nuevo).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Listas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Modelo de caja.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Position.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Rutas, hipervínculos e imágenes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Sticky.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/VSC y carpetas (nuevo template).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/Z-index.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/_Etiquetas y atributos (Nuevo).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/slides/parcial1/_Introduccíon_.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/images/batman-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/images/batman-picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/images/harley-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/images/harley-picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/images/heart-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/superheroes-C10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end_1/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Guía de uso GIT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/application-certificate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/autoindex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/blank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/go-previous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/media-optical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Index of _debian-cd_current_amd64_iso-cd_files/text-x-generic-template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Laura Ramos Mesa 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Primer_Examen_Laura_Ramos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/Práctica comparativa.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/camada6_roberto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/clase5_II" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/Armar-pc.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/Atajos de teclado.pdf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Accion/Los vengadores" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Accion/Mision Imposible" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Accion/Rapido y furioso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Comedia/La mascara" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Comedia/Que paso ayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Cars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Intensamente" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/La dama y el vagabundo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Madagascar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Infantiles/Pocahontas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Diario de una pasion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Orgullo y prejuicio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Titanic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Romanticas/Yo antes de ti" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Terror/Annabelle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Terror/El exorcista" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Terror/El juego del miedo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/Peliculas/Terror/IT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/repaso_clase1y2/git_bash_y_vscode/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/repaso_clase1y2/historia_de_la_informatica/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/repaso_clase1y2/interfaces_de_usuario/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/repaso_clase1y2/servidores/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/DH/repaso_clase1y2/software_y_hardware/repaso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/documentacion/atajos-de-teclado" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/ordenar-carpetas/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/ordenar-carpetas/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/ordenar-carpetas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/push-pullpractice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/Componentes de red.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/Framework, IDEs, Editores de Texto, Librerias.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/Medios de transmisión.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/Velocidades de internet.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/modelo osi flujo de datos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Algoritmos de planificacion de CPU .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Analizando al cerebro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Armado de computadoras.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Arquitectura de Von Neumann.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Comandos de terminal.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Comandos git.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Componentes de la computadora.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Diferencias entre Windows y Linux.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Github paso a paso.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Práctica de Algoritmos de planificación de CPU .pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Registros,  caché y memorias RAM.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Requerimientos previos.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Servicios que ofrecen los sistemas operativos.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_a_la_informatica/slides/parcial1/Sistema operativo.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zhqzgTFMjznRnMV5TUC2x03TtL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="DH-CertifiedTechDeveloper" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22d4b302-f5bf-4920-a6c0-e87d7104e2d7" name="Changes" comment="" />
+      <created>1634610934756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634610934756</updated>
+    </task>
+    <servers />
+  </component>
+</project>
