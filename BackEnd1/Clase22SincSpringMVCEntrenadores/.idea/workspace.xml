@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76c99705-b84c-4ab2-bfa8-97b00cdeff11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../C32S/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/C32S.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/main/java/com/example/C32S/C32SApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/main/java/com/example/C32S/controller/ProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/main/java/com/example/C32S/dto/RestarCantidadDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/main/java/com/example/C32S/model/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/main/java/com/example/C32S/repository/IProductoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/main/java/com/example/C32S/service/ProductoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C32S/src/test/java/com/example/C32S/C32SApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/avisos.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/Clase30AsincronicaInyeccionDependenciasApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/model/ServicioClasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/model/ServicioHabitacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/model/ServicioPremium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/java/com/example/Clase30AsincronicaInyeccionDependencias/repository/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase30AsincronicaInyeccionDependencias/src/test/java/com/example/Clase30AsincronicaInyeccionDependencias/Clase30AsincronicaInyeccionDependenciasTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/src/main/java/com/jpa/Clase31SincronicaHibernate/Clase31SincronicaHibernateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/src/main/java/com/jpa/Clase31SincronicaHibernate/model/Movimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/src/main/java/com/jpa/Clase31SincronicaHibernate/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/src/main/java/com/jpa/Clase31SincronicaHibernate/repository/IMovimientoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/src/main/java/com/jpa/Clase31SincronicaHibernate/repository/IUsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase31SincronicaHibernate/src/test/java/com/jpa/Clase31SincronicaHibernate/Clase31SincronicaHibernateApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/src/main/java/com/example/c31s/C31sApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/src/main/java/com/example/c31s/model/Movimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/src/main/java/com/example/c31s/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/src/main/java/com/example/c31s/repository/IMovimientoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/src/main/java/com/example/c31s/repository/IUsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c31s/src/test/java/com/example/c31s/C31sApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/avisos.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/clinica-dental.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/ClinicaDentalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/controller/OdontologoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/controller/PacienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/controller/TurnoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/model/Domicilio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/model/Odontologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/model/Turno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/repository/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/repository/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/repository/impl/DomicilioDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/repository/impl/OdontologoDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/repository/impl/PacienteDaoH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/repository/impl/TurnoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/service/DomicilioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/service/OdontologoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/service/PacienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/service/TurnoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/java/com/example/clinicadental/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/static/js/delete_odontologo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/static/js/get_odontologo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/static/js/post_odontologo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/static/js/update_odontologo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/static/odontologoAlta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/main/resources/static/odontologoList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/test/java/com/example/clinicadental/ClinicaDentalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/test/java/com/example/clinicadental/OdontologoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clinica-dental - Copy (2)/src/test/java/com/example/clinicadental/PacienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-ajax/GETgifsPopularesPOSTfotogatitos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node-ajax/gifsPopulares.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node-ajax/populares.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node-ajax/populares.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bimestre 1/front_end_1/Ecommerce" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bimestre 1/front_end_1/Ecommerce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bimestre 1/front_end_1/batman_cv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bimestre 1/front_end_1/batman_cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bimestre 1/front_end_1/petshop-improved" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bimestre 1/front_end_1/petshop-improved" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bimestre 4/Front2/Modulo4_Validaciones_clientes/practicando-localStorage" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bimestre 4/Front2/Modulo4_Validaciones_clientes/practicando-localStorage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bimestre 4/Front2/Modulo5Ansicronismo/Clase17Mesa5/fetch-api" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bimestre 4/Front2/Modulo5Ansicronismo/Clase17Mesa5/fetch-api" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Awl5w6Yuhf0fMnISAyKbB2E542" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Laura_Ramos/Documents/Cursos/DH-Certified_Tech_Developer/BackEnd1/Clase22SincSpringMVCEntrenadores"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76c99705-b84c-4ab2-bfa8-97b00cdeff11" name="Changes" comment="" />
+      <created>1655928348589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655928348589</updated>
+      <workItem from="1655928349951" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
