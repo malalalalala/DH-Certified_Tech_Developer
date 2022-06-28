@@ -1,12 +1,14 @@
 package com.example.Clase33Asincronarelaciones.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 
 @Table(name = "contactos")
-public class ContactoNNUnidireccional {
+public class ContactoNNBidireccional {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,5 +27,7 @@ public class ContactoNNUnidireccional {
             //        inverseJoinColumns: Definimos la columna en la tabla externa que apunta al id de la tabla inversa de la asociación.
             inverseJoinColumns = @JoinColumn(name = "id_foto")
     )
-            private Set<FotoNNUnidireccional> likedFotos;
+//    JsonIgnore lo utilizamos porque —en una relación bidireccional— si este objeto viaja en formato JSON, podría entrar en un bucle infinito.
+    @JsonIgnore
+    private Set<FotoNNUnidireccional> likedFotos;
 }

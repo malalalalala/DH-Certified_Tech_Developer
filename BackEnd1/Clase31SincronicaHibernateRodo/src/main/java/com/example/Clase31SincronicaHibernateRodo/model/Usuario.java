@@ -1,4 +1,4 @@
-package com.jpa.Clase31SincronicaHibernate.model;
+package com.example.Clase31SincronicaHibernateRodo.model;
 
 public class Usuario {
 }

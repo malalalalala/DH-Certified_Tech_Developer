@@ -1,2 +1,4 @@
-package com.example.ProyectoPivot.model;public class Profesor {
+package com.example.ProyectoPivot.model;
+
+public class Profesor {
 }

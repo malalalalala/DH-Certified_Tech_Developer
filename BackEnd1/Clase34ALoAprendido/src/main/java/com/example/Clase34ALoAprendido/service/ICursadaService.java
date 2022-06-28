@@ -1,8 +1,10 @@
 package com.example.Clase34ALoAprendido.service;
 
 import com.example.Clase34ALoAprendido.model.CursadaDTO;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
+//@Service
 
 public interface ICursadaService {
     void crearCursada(CursadaDTO cursadaDTO);

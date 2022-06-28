@@ -1,10 +1,10 @@
-package com.example.ProyectoPivot;
+package com.example.Clase33AsinLlavesCompuestasApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Clase30AsincronicaInyeccionDependenciasTests {
+class Clase33AsinLlavesCompuestasAppsTests {
 
 	@Test
 	void contextLoads() {

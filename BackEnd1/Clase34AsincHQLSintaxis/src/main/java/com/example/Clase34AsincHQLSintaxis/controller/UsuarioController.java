@@ -1,2 +1,4 @@
-package com.example.Clase34AsincHQLSintaxis.controller;public class UsuarioController {
+package com.example.Clase34AsincHQLSintaxis.controller;
+
+public class UsuarioController {
 }

@@ -11,8 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>clinica-dental</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Clase30AsincronicaInyeccionDependencias</name>
-	<description>Clase30AsincronicaInyeccionDependenciasTests</description>
+	<name>Clase31AsincronicaHibernate</name>
+	<description>Clase31AsincronicaHibernate</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

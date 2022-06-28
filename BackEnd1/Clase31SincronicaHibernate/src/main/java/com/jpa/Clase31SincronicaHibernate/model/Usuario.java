@@ -1,2 +1,4 @@
-package com.jpa.Clase31SincronicaHibernate.model;public class Usuario {
+package com.jpa.Clase31SincronicaHibernate.model;
+
+public class Usuario {
 }

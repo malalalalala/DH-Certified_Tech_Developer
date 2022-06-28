@@ -1,7 +1,8 @@
-package com.jpa.Clase31SincronicaHibernate.model;
+package com.example.Clase31SincronicaHibernateRodo.model;
 
 import javax.persistence.*;
 
+//tiene que tener su tabla, tiene que ser persistida
 @Entity
 //le digo que esto va a ser una tabla
 @Table(name="tabla_movimientos")
@@ -13,7 +14,9 @@ public class Movimiento {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+    @Column
     private String descripcion;
+    @Column
     private Double monto;
 
     public Movimiento(Long id, String descripcion, Double monto) {

@@ -1,2 +1,4 @@
-package com.jpa.Clase31SincronicaHibernate.repository;public interface IUsuarioRepository {
+package com.jpa.Clase31SincronicaHibernate.repository;
+
+public interface IUsuarioRepository {
 }

@@ -39,7 +39,7 @@ window.addEventListener('load', function () {
                  document.querySelector('#response').style.display = "block";
                  resetUploadForm();
                setTimeout(function(){
-                   window.location.href = "/odontologoList.html";
+                   window.location.href = "/estudianteList.html";
                }, 500)
             })
             .catch(error => {
@@ -67,7 +67,7 @@ window.addEventListener('load', function () {
         let pathname = window.location.pathname;
         if(pathname === "/"){
             document.querySelector(".nav .nav-item a:first").addClass("active");
-        } else if (pathname == "/odontologoList.html") {
+        } else if (pathname == "/estudianteList.html") {
             document.querySelector(".nav .nav-item a:last").addClass("active");
         }
     })();
