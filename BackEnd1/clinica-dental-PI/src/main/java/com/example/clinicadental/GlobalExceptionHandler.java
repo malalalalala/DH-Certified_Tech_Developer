@@ -1,4 +1,4 @@
-package com.example.Clase34ALoAprendido;
+package com.example.clinicadental;
 
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
@@ -10,14 +10,14 @@ import org.springframework.web.context.request.WebRequest;
 ;
 
 @ControllerAdvice
-public class GlobalExceprionHandler {
+public class GlobalExceptionHandler {
 
-    public static final Logger logger=Logger.getLogger(GlobalExceprionHandler.class);
+    public static final Logger logger=Logger.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<?> todosErrores(Exception ex, WebRequest req){
 
      logger.error(ex.getMessage());
-     return new ResponseEntity("Error"+ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+     return new ResponseEntity("Error "+ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

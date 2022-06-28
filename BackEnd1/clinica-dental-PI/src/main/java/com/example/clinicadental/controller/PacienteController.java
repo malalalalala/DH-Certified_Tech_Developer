@@ -3,6 +3,7 @@ package com.example.clinicadental.controller;
 import com.example.clinicadental.repository.impl.PacienteDaoH2;
 import com.example.clinicadental.model.Paciente;
 import com.example.clinicadental.service.PacienteService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +14,8 @@ import java.util.List;
 @RequestMapping("/pacientes")
 public class PacienteController {
 
-    private PacienteService pacienteService=new PacienteService(new PacienteDaoH2());
+    @Autowired
+    private PacienteService pacienteService;
 
     @GetMapping
     public List<Paciente> buscarPacientes(){

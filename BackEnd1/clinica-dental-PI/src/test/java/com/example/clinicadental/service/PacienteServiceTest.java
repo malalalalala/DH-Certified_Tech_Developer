@@ -1,4 +1,4 @@
-package com.example.clinicadental;
+package com.example.clinicadental.service;
 
 
 import com.example.clinicadental.model.Odontologo;

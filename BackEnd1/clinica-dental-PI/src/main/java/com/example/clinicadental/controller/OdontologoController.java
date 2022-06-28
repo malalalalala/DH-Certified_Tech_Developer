@@ -3,6 +3,8 @@ package com.example.clinicadental.controller;
 import com.example.clinicadental.repository.impl.OdontologoDaoH2;
 import com.example.clinicadental.model.Odontologo;
 import com.example.clinicadental.service.OdontologoService;
+import com.example.clinicadental.service.PacienteService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +15,8 @@ import java.util.List;
 @RequestMapping("/odontologos")
 public class OdontologoController {
 
-    private OdontologoService odontologoService=new OdontologoService(new OdontologoDaoH2());
+    @Autowired
+    private OdontologoService odontologoService;
 
 //    @GetMapping("/{id}")
 //    public ResponseEntity <Odontologo> buscarPorId(@PathVariable("id") Integer identificador){

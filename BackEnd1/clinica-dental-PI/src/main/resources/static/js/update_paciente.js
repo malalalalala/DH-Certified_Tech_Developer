@@ -1,58 +1,58 @@
 window.addEventListener('load', function () {
 
-
-    console.log('entré ac{a')
-
-    //Buscamos y obtenemos el formulario donde estan
-    //los datos que el usuario pudo haber modificado del odontolohgo
-    const formulario = document.querySelector('#update_odontologo_form');
+    const formulario = document.querySelector('#update_paciente_form');
     const baseUrl = (window.location).href;
-    const userId = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+    const pacienteId = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
 
-    console.log("user id",userId)
 
-    const url = '/odontologos'+"/"+userId;
+    const url = '/pacientes'+"/"+pacienteId;
     const settings = {
         method: 'GET'
     }
     fetch(url,settings)
         .then(response => response.json())
         .then(data => {
-            console.log('data',data)
-            let odontologo = data;
-            document.querySelector('#odontologo_id').value = odontologo.id;
-            document.querySelector('#nombre').value = odontologo.nombre;
-            document.querySelector('#apellido').value = odontologo.apellido;
-            document.querySelector('#matricula').value = odontologo.nroMatricula;
-            // //el formulario por default esta oculto y al editar se habilita
-            // document.querySelector('#div_odontologo_updating').style.display = "block";
+
+            let paciente = data;
+
+            document.querySelector('#paciente_id').value = paciente.id;
+            document.querySelector('#nombre').value = paciente.nombre;
+            document.querySelector('#apellido').value = paciente.apellido;
+            document.querySelector('#identificacion').value= paciente.dni;
+            document.querySelector('#calle').value = paciente.domicilio.calle;
+            document.querySelector('#number').value = paciente.domicilio.numero;
+            document.querySelector('#localidad').value = paciente.domicilio.localidad;
+            document.querySelector('#provincia').value = paciente.domicilio.provincia;
+
         }).catch(error => {
 
-        console.log('llegue aca')
-        console.log('error',error)
-        // alert("Error: " + error);
+         alert("Error: " + error);
     })
+
+
 
     formulario.addEventListener('submit', function (event) {
         event.preventDefault()
 
+        let fechaModificacion=new Date()
 
-
-        //creamos un JSON que tendrá los datos del odontologo
-        //a diferencia de un odontologo nuevo en este caso enviamos el id
-        //para poder identificarlo y modificarlo para no cargarlo como nuevo
         const formData = {
-            id: userId,
+            id: pacienteId,
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
-            nroMatricula: document.querySelector('#matricula').value,
+            dni:document.querySelector('#identificacion').value,
+            fechaIngreso:fechaModificacion,
+            domicilio: {
+                calle:document.querySelector('#calle').value,
+                numero:document.querySelector('#number').value,
+                localidad:document.querySelector('#localidad').value,
+                provincia:document.querySelector('#provincia').value
+            }
         };
 
-        console.log('form data')
 
-        //invocamos utilizando la función fetch la API odontologos con el método PUT que modificará
-        //al odontologo que enviaremos en formato JSON
-        const url = '/odontologos';
+
+        const url = '/pacientes';
         const settings = {
             method: 'PUT',
             headers: {
@@ -63,7 +63,7 @@ window.addEventListener('load', function () {
           fetch(url,settings)
           .then(response => response.json())
           .then(data => {
-              console.log(data)
+
               let successAlert = '<div class="alert alert-success alert-dismissible">' +
                   '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
                   '<strong></strong> Información actualizada </div>'
@@ -72,15 +72,19 @@ window.addEventListener('load', function () {
               document.querySelector('#response').style.display = "block";
               document.querySelector('#nombre').disabled = true
               document.querySelector('#apellido').disabled = true
-              document.querySelector('#matricula').disabled = true
+              document.querySelector('#identificacion').disabled= true
+              document.querySelector('#calle').disabled= true
+              document.querySelector('#number').disabled= true
+              document.querySelector('#localidad').disabled= true
+              document.querySelector('#provincia').disabled= true
               resetUploadForm();
 
               setTimeout(function(){
-                  window.location.href = "/odontologoList.html";
+                  window.location.href = "../views/pacienteList.html";
               }, 1000)
           })
           .catch(error => {
-              //Si hay algun error se muestra un mensaje diciendo que el odontologo
+              //Si hay algun error se muestra un mensaje diciendo que el paciente
               //no se pudo guardar y se intente nuevamente
               let errorAlert = '<div class="alert alert-danger alert-dismissible">' +
                   '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
@@ -88,7 +92,7 @@ window.addEventListener('load', function () {
 
               document.querySelector('#response').innerHTML = errorAlert;
               document.querySelector('#response').style.display = "block";
-              //se dejan todos los campos vacíos por si se quiere ingresar otro odontologo
+
               resetUploadForm();})
 
     })
@@ -97,6 +101,10 @@ window.addEventListener('load', function () {
 function resetUploadForm(){
     document.querySelector('#nombre').value = "";
     document.querySelector('#apellido').value = "";
-    document.querySelector('#matricula').value = "";
+    document.querySelector('#identificacion').value = "";
+    document.querySelector('#calle').value = "";
+    document.querySelector('#number').value = "";
+    document.querySelector('#localidad').value = "";
+    document.querySelector('#provincia').value = "";
 
 }

@@ -1,10 +1,19 @@
 package com.example.clinicadental.model;
 
+import javax.persistence.*;
 import java.util.Date;
-
+@Entity
+@Table(name = "turnos")
 public class Turno {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "paciente_id")
+
     private Paciente paciente;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "odontologo_id")
     private Odontologo odontologo;
     private Date fecha;
 

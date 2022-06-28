@@ -1,15 +1,24 @@
 package com.example.clinicadental.model;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name="pacientes")
 public class Paciente {
 
-    private Domicilio domicilio;
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "paciente_sequence")
     private Integer id;
     private String nombre;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "domicilio_id")
+    private Domicilio domicilio;
     private String apellido;
     private String dni;
     private Date fechaIngreso;
+
 
 
     public Paciente() {

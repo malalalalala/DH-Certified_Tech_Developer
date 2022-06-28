@@ -1,6 +1,13 @@
 package com.example.clinicadental.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="odontologos")
+
 public class Odontologo {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private Integer nroMatricula;
     private String nombre;
