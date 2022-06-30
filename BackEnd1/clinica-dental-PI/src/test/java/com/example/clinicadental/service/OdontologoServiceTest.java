@@ -33,6 +33,10 @@ public class OdontologoServiceTest {
     @Test
     public void registarOdontologos(){
 
+        System.out.println("==============================");
+        System.out.println("TEST AGREGAR ODONTÓLOGOS");
+        System.out.println("==============================");
+
         //revisar si existen
         Assert.assertNotNull(odontologoService.guardar(odontologo1));
         Assert.assertNotNull(odontologoService.guardar(odontologo2));
@@ -44,6 +48,9 @@ public class OdontologoServiceTest {
     @Test
     public void listarTodosLosOdontologos(){
 
+        System.out.println("==============================");
+        System.out.println("TEST LISTAR ODONTÓLOGOS");
+        System.out.println("==============================");
 
         System.out.println("los odontologos son en lsitar" +odontologoService.buscarTodos());
 
@@ -56,6 +63,10 @@ public class OdontologoServiceTest {
 
     @Test
     public void eliminarOdontologo() {
+        System.out.println("==============================");
+        System.out.println("TEST ELIMINAR ODONTÓLOGO");
+        System.out.println("==============================");
+
         Odontologo odontologoEliminar=odontologoService.guardar(new Odontologo(91011,"Carlos","Ramirez"));
         odontologoService.eliminar(odontologoEliminar.getId());
         assertTrue(odontologoService.buscar(odontologoEliminar.getId()) == null);
@@ -64,6 +75,10 @@ public class OdontologoServiceTest {
 
     @Test
     public void buscarOdontologo() {
+        System.out.println("==============================");
+        System.out.println("TEST BUSCAR ODONTÓLOGO");
+        System.out.println("==============================");
+
         Odontologo odontologoABuscar=odontologoService.guardar(new Odontologo(123,"Corre","Forest"));
         System.out.println("odontologoABuscar" +odontologoABuscar);
         System.out.println("id" +odontologoABuscar.getId());
@@ -78,6 +93,10 @@ public class OdontologoServiceTest {
 
     @Test
     public void actualizarOdontologo() {
+
+        System.out.println("==============================");
+        System.out.println("TEST ACTUALIZAR ODONTÓLOGO");
+        System.out.println("==============================");
 
         Odontologo odontologoAActualizar=new Odontologo(235,"Malala","Ramos");
         Odontologo odontologo1Actualizado=new Odontologo(odontologoAActualizar.getId(),1111,"Victoria","Agudelo");

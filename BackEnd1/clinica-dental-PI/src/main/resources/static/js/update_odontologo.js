@@ -9,6 +9,9 @@ window.addEventListener('load', function () {
     const settings = {
         method: 'GET'
     }
+    console.log('userId',userId)
+    console.log('userId',typeof userId )
+    console.log('url update',url)
     fetch(url,settings)
         .then(response => response.json())
         .then(data => {

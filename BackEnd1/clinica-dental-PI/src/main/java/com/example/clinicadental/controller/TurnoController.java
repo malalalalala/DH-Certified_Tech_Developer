@@ -62,7 +62,7 @@ public class TurnoController {
             respuesta=ResponseEntity.ok(turnoService.actualizar(turno));
         }
         else{
-            respuesta=ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         return respuesta;
     }
@@ -75,7 +75,7 @@ public class TurnoController {
         }
         else{
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se eliminó " +
-                    "el turno con id="+id+" al no ser encontrado");
+                    "el turno con id="+id+" al no ser encontrado en la base de datos");
         }
     }
 

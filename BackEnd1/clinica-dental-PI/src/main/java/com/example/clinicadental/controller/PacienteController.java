@@ -40,13 +40,14 @@ public class PacienteController {
 //    }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity eliminarPorId(@PathVariable("id") Integer identificador){
+    public ResponseEntity<String> eliminarPorId(@PathVariable("id") Integer identificador){
         ResponseEntity response=null;
         if(pacienteService.buscar(identificador)==null){
-            response=new ResponseEntity(HttpStatus.NOT_FOUND);
+            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se eliminó " +
+                    "el paciente con id="+identificador+" al no ser encontrado en la base de datos");
         }else {
             pacienteService.eliminar(identificador);
-            response=new ResponseEntity(HttpStatus.NO_CONTENT);
+            response = ResponseEntity.status(HttpStatus.OK).body("Se eliminó el odontólogo con id="+identificador);
         }
         return response;
     }
@@ -58,8 +59,8 @@ public class PacienteController {
          pacienteService.actualizar(paciente);
            response=new ResponseEntity(pacienteService.actualizar(paciente),HttpStatus.OK);}
         else{
-            pacienteService.actualizar(paciente);
-            response=new ResponseEntity(pacienteService.actualizar(paciente),HttpStatus.OK);
+//            pacienteService.actualizar(paciente);
+            response = ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         return response;
     }

@@ -32,18 +32,15 @@ public class PacienteServiceTest {
     @Autowired
     private DomicilioService domicilioService;
 
-//    @BeforeClass
-//    public static void cargarDataSet() {
-//        Domicilio domicilio = new Domicilio("Av Santa fe", "444", "CABA", "Buenos Aires");
-//        Paciente p = pacienteService.guardar(new Paciente("Santiago", "Paz", "88888888", new Date(), domicilio));
-//        Domicilio domicilio1 = new Domicilio("Av Avellaneda", "333", "CABA", "Buenos Aires");
-//        Paciente p1 = pacienteService.guardar(new Paciente("Micaela", "Perez", "99999999", new Date(), domicilio));
-//    }
-
-
 
     @Test
     public void agregarPaciente(){
+
+        System.out.println("==============================");
+        System.out.println("TEST AGREGAR PACIENTE");
+        System.out.println("==============================");
+
+
         Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
         Paciente paciente1 = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
         Domicilio domicilio2 = new Domicilio("Avenida", "123", "SiempreViva", "Bogotá");
@@ -61,6 +58,11 @@ public class PacienteServiceTest {
 
     @Test
     public void eliminarPacienteTest() {
+
+        System.out.println("==============================");
+        System.out.println("TEST ELIMINAR PACIENTE");
+        System.out.println("==============================");
+
         Domicilio domicilio4 = new Domicilio("Carerra", "63452", "Casa", "Roja");
         Paciente paciente4 = pacienteService.guardar(new Paciente("Walter", "White", "4568841", new Date(), domicilio4));
         pacienteService.eliminar(paciente4.getId());
@@ -70,6 +72,11 @@ public class PacienteServiceTest {
 
     @Test
     public void traerTodos() {
+
+        System.out.println("==============================");
+        System.out.println("TEST LISTAR PACIENTES");
+        System.out.println("==============================");
+
         List<Paciente> pacientes = pacienteService.buscarTodos();
         Assert.assertTrue(!pacientes.isEmpty());
         Assert.assertTrue(pacientes.size() > 0);
@@ -79,9 +86,11 @@ public class PacienteServiceTest {
     @Test
     public void actualizarPaciente() {
 
+        System.out.println("==============================");
+        System.out.println("TEST ACTUALIZAR PACIENTE");
+        System.out.println("==============================");
 
-//        List<Paciente> pacientes = pacienteService.buscarTodos();
-//        System.out.println(pacientes);
+
         Paciente pacienteX=new Paciente("Fulanito","DeTal","1234",new Date(),new Domicilio("Calle", "345", "Calasanz", "medellín"));
         Paciente pacienteAActualizar = pacienteService.guardar(pacienteX);
         Paciente pacienteNuevaInfo=new Paciente(pacienteAActualizar.getId(),"Sultanito","Pepito","1234",new Date(),new Domicilio("Calle", "345", "Calasanz", "medellín"));
@@ -89,7 +98,6 @@ public class PacienteServiceTest {
      Paciente pacienteActualizado=pacienteService.actualizar(pacienteNuevaInfo);
        assertEquals(pacienteService.buscar(pacienteAActualizar.getId()).getNombre(),"Sultanito");
 
-//        assertEquals(pacienteService.buscar(2).getApellido(),"Pepito");
 
         System.out.println(pacienteAActualizar.getId());
 

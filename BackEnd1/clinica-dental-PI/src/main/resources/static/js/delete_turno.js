@@ -1,18 +1,19 @@
 function deleteBy(id)
 {
-    let row_id = "#tr_" + id;
+          let row_id = "#tr_" + id;
 
-                if (window.confirm('Desea eliminar este odontologo?')) {
-                  const url = '/odontologos/'+ id;
+
+                if (window.confirm('Desea eliminar este turno?')) {
+                  const url = '/turnos/'+ id;
                   const settings = {
                     method: 'DELETE',
                   };
-
                   fetch(url, settings).then((response) => {
-                    alert('odontólogo eliminado correctamente');
+                    alert('turno eliminado correctamente');
                     location.reload();
                   });
                     document.querySelector(row_id).remove();
+                    console.log('confirm',window.confirm('Desea eliminar este turno?'))
                 }
 
 }

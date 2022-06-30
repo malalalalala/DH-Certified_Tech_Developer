@@ -2734,3 +2734,21 @@
 [2022-06-2523:26:27] [ ERROR] [GlobalExceptionHandler:20] No value present
 [2022-06-2719:58:38] [ ERROR] [GlobalExceptionHandler:20] No value present
 [2022-06-2719:58:42] [ ERROR] [GlobalExceptionHandler:20] No value present
+[2022-06-2915:19:31] [ ERROR] [GlobalExceptionHandler:20] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-06-2915:20:13] [ ERROR] [GlobalExceptionHandler:20] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-06-2915:20:19] [ ERROR] [GlobalExceptionHandler:20] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-06-2915:28:09] [ ERROR] [GlobalExceptionHandler:20] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.PACIENTES(ID) [54, 'Matata', '4568841', TIMESTAMP '2022-06-25 11:53:12.106', 'Hakuna', 6]"; SQL statement:
+insert into pacientes (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-06-2915:31:34] [ ERROR] [GlobalExceptionHandler:20] could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.PACIENTES(ID) [102, 'Pereyra', '12345678', TIMESTAMP '2022-06-25 11:53:31.55', 'Tomas', 7]"; SQL statement:
+insert into pacientes (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-06-2917:17:02] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:17:05] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:17:06] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:17:07] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:17:07] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:17:09] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:18:10] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:18:22] [ ERROR] [GlobalExceptionHandler:20] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-06-2917:21:02] [ ERROR] [GlobalExceptionHandler:20] java.io.IOException: An established connection was aborted by the software in your host machine
+[2022-06-2917:44:03] [ ERROR] [GlobalExceptionHandler:20] java.io.IOException: An established connection was aborted by the software in your host machine
+[2022-06-2922:11:14] [ ERROR] [GlobalExceptionHandler:20] The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!

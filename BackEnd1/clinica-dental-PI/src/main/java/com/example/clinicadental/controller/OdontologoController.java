@@ -54,9 +54,10 @@ public class OdontologoController {
         ResponseEntity<String> response;
         if (odontologoService.buscar(id) != null){
             odontologoService.eliminar(id);
-            response = ResponseEntity.status(HttpStatus.OK).body("Eliminado");
+            response = ResponseEntity.status(HttpStatus.OK).body("Se eliminó el odontólogo con id="+id);
         }else{
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("Registro no se encuentra en la base de datos");
+            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se eliminó " +
+                    "el odontólogo con id="+id+" al no ser encontrado en la base de datos");
         }
         return response;
 
