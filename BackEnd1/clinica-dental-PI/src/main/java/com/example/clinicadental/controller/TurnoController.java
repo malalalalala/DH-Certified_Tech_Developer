@@ -59,6 +59,7 @@ public class TurnoController {
         ResponseEntity<Turno> respuesta;
         if (pacienteService.buscar(turno.getPaciente().getId())!=null && odontologoService
                 .buscar(turno.getOdontologo().getId())!=null){
+
             respuesta=ResponseEntity.ok(turnoService.actualizar(turno));
         }
         else{

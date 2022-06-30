@@ -142,13 +142,12 @@ window.addEventListener('load', function () {
 
               document.querySelector('#response').innerHTML = successAlert;
               document.querySelector('#response').style.display = "block";
-              document.querySelector('#nombre').disabled = true
-              document.querySelector('#apellido').disabled = true
-              document.querySelector('#identificacion').disabled= true
-              document.querySelector('#calle').disabled= true
-              document.querySelector('#number').disabled= true
-              document.querySelector('#localidad').disabled= true
-              document.querySelector('#provincia').disabled= true
+              document.querySelector('#turno_id').disabled = true
+              document.querySelector('#id_odontologo').disabled = true
+              document.querySelector('#id_paciente').disabled= true
+              document.querySelector('#nombre_odontologo').disabled= true
+              document.querySelector('#nombre_paciente').disabled= true
+
               resetUploadForm();
 
               setTimeout(function(){
@@ -171,12 +170,10 @@ window.addEventListener('load', function () {
  })
 
 function resetUploadForm(){
-    document.querySelector('#nombre').value = "";
-    document.querySelector('#apellido').value = "";
-    document.querySelector('#identificacion').value = "";
-    document.querySelector('#calle').value = "";
-    document.querySelector('#number').value = "";
-    document.querySelector('#localidad').value = "";
-    document.querySelector('#provincia').value = "";
+    document.querySelector('#turno_id').value = "";
+    document.querySelector('#id_odontologo').value = "";
+    document.querySelector('#nombre_odontologo').value = "";
+    document.querySelector('#id_paciente').value = "";
+    document.querySelector('#nombre_paciente').value = "";
 
 }

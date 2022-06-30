@@ -1,5 +1,6 @@
 package com.example.clinicadental.controller;
 
+import com.example.clinicadental.model.Turno;
 import com.example.clinicadental.repository.impl.PacienteDaoH2;
 import com.example.clinicadental.model.Paciente;
 import com.example.clinicadental.service.PacienteService;
@@ -30,8 +31,13 @@ public class PacienteController {
 
 
     @GetMapping("/{id}")
-    public Paciente buscarPorId(@PathVariable("id") Integer identificador){
-        return pacienteService.buscar(identificador);
+    public ResponseEntity<Paciente> buscarPorId(@PathVariable("id") Integer identificador){
+        if (pacienteService.buscar(identificador) != null){
+            return ResponseEntity.accepted().body(pacienteService.buscar(identificador));
+        }else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+
     }
 
 //    @DeleteMapping("/{id}")
