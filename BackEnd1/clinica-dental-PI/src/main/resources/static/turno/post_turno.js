@@ -28,60 +28,6 @@ const getOdontologos=()=>{
 
     getOdontologos()
 
-    // (function(){
-    //
-    //     const url = '/odontologos';
-    //     const settings = {
-    //         method: 'GET'
-    //     }
-    //
-    //     fetch(url,settings)
-    //         .then(response => response.json())
-    //         .then(data => {
-    //
-    //             console.log('data get odontolotog',data)
-    //             let  odontologoOptions = '<option selected disabled value="">Seleccionar odontólogo:</option>'
-    //             for(odontologo of data){
-    //                 odontologoOptions+='<option value="' + odontologo.id + '">'+odontologo.nombre + ' ' + odontologo.apellido+'</option> '
-    //             }
-    //             odontologoSelect.innerHTML=odontologoOptions
-    //
-    //         })
-    // })
-
-    // idOdontologoInput.addEventListener('blur', function (event){
-    //     event.preventDefault()
-    //     let idOdontologo = document.querySelector('#id_odontologo').value;
-    //     console.log('idodontologo',idOdontologo)
-    //     console.log('tipo',typeof idOdontologo )
-    //     const url = '/odontologos'+"/"+idOdontologo;
-    //     const settings = {
-    //         method: 'GET'
-    //     }
-    //     console.log('url blur',url)
-    //     fetch(url,settings)
-    //         .then(response => {
-    //             if (response.ok) {
-    //                 return response.json()
-    //             } else if(response.status === 404) {
-    //                 alert("Error: el odontólogo no existe");
-    //                 return Promise.reject('error 404')
-    //             } else {
-    //                 return Promise.reject('some other error: ' + response.status)
-    //             }
-    //         })
-    //         .then(data => {
-    //
-    //             console.log('dataodontoloto',data)
-    //             let odontologo = data;
-    //             document.querySelector('#nombre_odontologo').value = odontologo.nombre +' '+odontologo.apellido
-    //             // idOdontologo = idOdontologo? odontologo.nombre+' '+odontologo.apellido:" ";
-    //         }).catch(error => {
-    //
-    //         document.querySelector('#id_odontologo').value = "";
-    //         document.querySelector('#nombre_odontologo').value = "";
-    //     })
-    // });
 
 
 
@@ -119,6 +65,8 @@ const getOdontologos=()=>{
 
     formulario.addEventListener('submit', function (event) {
     event.preventDefault();
+
+        document.querySelector('#fecha_turno').required
 
         const formData = {
             odontologo:{

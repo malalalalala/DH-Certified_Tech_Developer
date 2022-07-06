@@ -28,7 +28,7 @@
         <div style="background-color:#339989; padding:10px; border-radius:3px">
             <form id="add_new_turno">
                 <div class="form-group">
-                    <select name="odontologos" form="add_new_turno" id="odontologos" class="form-select form-control"></select>
+                    <select name="odontologos" form="add_new_turno" id="odontologos" class="form-select form-control" required></select>
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="id_paciente" style="color:#fffafb; font-weight: bold">Id Paciente:</label>
@@ -47,7 +47,7 @@
                     <input type="date" class="form-control" id="fecha_turno"
                            name="fecha_turno"
                            placeholder="dd-mm-yyyy" value=""
-                           min="1997-01-01" max="2030-12-31"/>
+                           min="1997-01-01" max="2030-12-31" required/>
                 </div>
                 <button type="submit" class="btn btn-secondary"
                         id="btn-add-new-turno">Guardar</button>
