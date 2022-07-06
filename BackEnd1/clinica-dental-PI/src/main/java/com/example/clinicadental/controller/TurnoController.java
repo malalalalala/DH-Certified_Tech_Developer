@@ -1,10 +1,9 @@
 package com.example.clinicadental.controller;
 
 
+import com.example.clinicadental.exceptions.BadRequestException;
+import com.example.clinicadental.exceptions.ResourceNotFoundException;
 import com.example.clinicadental.model.Turno;
-import com.example.clinicadental.repository.impl.OdontologoDaoH2;
-import com.example.clinicadental.repository.impl.PacienteDaoH2;
-import com.example.clinicadental.repository.impl.TurnoRepository;
 import com.example.clinicadental.service.OdontologoService;
 import com.example.clinicadental.service.PacienteService;
 import com.example.clinicadental.service.TurnoService;
@@ -13,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.SQLException;
 import java.util.List;
 
 @RestController
@@ -21,10 +21,6 @@ public class TurnoController {
 
     @Autowired
     private TurnoService turnoService;
-    @Autowired
-    private PacienteService pacienteService;
-    @Autowired
-    private OdontologoService odontologoService;
 
     @GetMapping
     public ResponseEntity<List<Turno>> buscarTodos(){
@@ -33,51 +29,37 @@ public class TurnoController {
     }
 
     @PostMapping
-    public ResponseEntity<Turno> registrarTurno(@RequestBody Turno turno){
-        ResponseEntity<Turno> respuesta;
-        if (pacienteService.buscar(turno.getPaciente().getId())!=null && odontologoService
-                .buscar(turno.getOdontologo().getId())!=null){
-            respuesta=ResponseEntity.ok(turnoService.guardar(turno));
-        }
-        else{
-            respuesta=ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
-        }
-        return respuesta;
+    public ResponseEntity<Turno> guardar(@RequestBody Turno turno) throws BadRequestException, ResourceNotFoundException {
+        return ResponseEntity.ok(turnoService.guardar(turno));
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Turno> buscarTurno(@PathVariable int id) {
-        if (turnoService.buscar(id) != null) {
-            return ResponseEntity.ok(turnoService.buscar(id));
-        } else {
+        if (turnoService.buscar(id) == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+
+        } else {
+            return ResponseEntity.ok(turnoService.buscar(id));
         }
     }
 
     @PutMapping
-    public ResponseEntity<Turno> actualizarTurno(@RequestBody Turno turno){
+    public ResponseEntity<Turno> actualizarTurno(@RequestBody Turno turno) throws BadRequestException, ResourceNotFoundException {
         ResponseEntity<Turno> respuesta;
-        if (pacienteService.buscar(turno.getPaciente().getId())!=null && odontologoService
-                .buscar(turno.getOdontologo().getId())!=null){
 
-            respuesta=ResponseEntity.ok(turnoService.actualizar(turno));
-        }
-        else{
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-        }
-        return respuesta;
+    return ResponseEntity.ok(turnoService.actualizar(turno));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> eliminarTurno(@PathVariable int id){
-        if(turnoService.buscar(id)!=null){
-            turnoService.eliminar(id);
-            return ResponseEntity.ok("Se eliminó el turno con id="+id);
-        }
-        else{
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se eliminó " +
-                    "el turno con id="+id+" al no ser encontrado en la base de datos");
-        }
+    public ResponseEntity<String> eliminarTurno(@PathVariable int id) throws ResourceNotFoundException, SQLException {
+        turnoService.eliminar(id);
+        return ResponseEntity.ok("Se eliminó el turno con id="+id);
+
+    }
+
+    @ExceptionHandler({BadRequestException.class})
+    public ResponseEntity<String> tratarErrorBadRequest(BadRequestException exception){
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(exception.getMessage());
     }
 
 

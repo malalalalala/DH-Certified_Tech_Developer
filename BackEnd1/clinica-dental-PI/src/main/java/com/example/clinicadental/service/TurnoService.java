@@ -1,14 +1,12 @@
 package com.example.clinicadental.service;
 
-import com.example.clinicadental.model.Paciente;
-import com.example.clinicadental.repository.IDao;
+import com.example.clinicadental.exceptions.BadRequestException;
+import com.example.clinicadental.exceptions.ResourceNotFoundException;
 import com.example.clinicadental.model.Turno;
-import com.example.clinicadental.repository.PacienteRepository;
 import com.example.clinicadental.repository.TurnoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -17,20 +15,27 @@ public class TurnoService {
 
 //    private IDao<Turno> turnoDao;
 private TurnoRepository turnoRepository;
+    @Autowired
+    private PacienteService pacienteService;
+    @Autowired
+    private OdontologoService odontologoService;
 
 
     public TurnoService(TurnoRepository turnoRepository) {
         this.turnoRepository = turnoRepository;
     }
 
-//    public TurnoService(IDao<Turno> turnoDao) {
-//        this.turnoDao = turnoDao;
-//    }
 
-    public Turno guardar(Turno turno) {
-        turno.setFecha(new Date());
-        return turnoRepository.save(turno);
+    public Turno guardar(Turno turno) throws BadRequestException, ResourceNotFoundException {
+        if (pacienteService.buscar(turno.getPaciente().getId()) == null || odontologoService.buscar(turno.getOdontologo().getId()) == null){
+            throw new BadRequestException("el odontólogo o paciente no es válido");
+
+        }else{
+            return turnoRepository.save(turno);
+        }
+
     }
+
 
     public Turno buscar(Integer id) {
         Turno turno=null;
@@ -45,11 +50,14 @@ private TurnoRepository turnoRepository;
         return turnoRepository.findAll();
     }
 
-    public void eliminar(Integer id) {
+    public void eliminar(Integer id) throws ResourceNotFoundException {
+        if(this.buscar(id)==null)
+            throw new ResourceNotFoundException("No se eliminó el turno con id="+id+" ya que no existe en la base de datos");
         turnoRepository.deleteById(id);
     }
 
-    public Turno actualizar(Turno turno) {
-        return turnoRepository.save(turno);
+    public Turno actualizar(Turno turno) throws BadRequestException, ResourceNotFoundException {
+        return this.guardar(turno);
+//        return turnoRepository.save(turno);
     }
 }

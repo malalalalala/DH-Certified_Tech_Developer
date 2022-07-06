@@ -1,9 +1,9 @@
 package com.example.clinicadental.service;
 
 
+import com.example.clinicadental.exceptions.ResourceNotFoundException;
+import com.example.clinicadental.exceptions.SQLIntegrityViolationException;
 import com.example.clinicadental.model.Odontologo;
-import com.example.clinicadental.repository.impl.DomicilioDaoH2;
-import com.example.clinicadental.repository.impl.PacienteDaoH2;
 import com.example.clinicadental.model.Domicilio;
 import com.example.clinicadental.model.Paciente;
 import com.example.clinicadental.service.DomicilioService;
@@ -18,6 +18,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
@@ -34,7 +35,7 @@ public class PacienteServiceTest {
 
 
     @Test
-    public void agregarPaciente(){
+    public void agregarPaciente() throws ResourceNotFoundException {
 
         System.out.println("==============================");
         System.out.println("TEST AGREGAR PACIENTE");
@@ -57,7 +58,7 @@ public class PacienteServiceTest {
 
 
     @Test
-    public void eliminarPacienteTest() {
+    public void eliminarPacienteTest() throws ResourceNotFoundException, SQLIntegrityViolationException {
 
         System.out.println("==============================");
         System.out.println("TEST ELIMINAR PACIENTE");
@@ -84,7 +85,7 @@ public class PacienteServiceTest {
     }
 
     @Test
-    public void actualizarPaciente() {
+    public void actualizarPaciente() throws ResourceNotFoundException {
 
         System.out.println("==============================");
         System.out.println("TEST ACTUALIZAR PACIENTE");

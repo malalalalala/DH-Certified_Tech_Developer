@@ -19,8 +19,6 @@ public class Paciente {
     private String dni;
     private Date fechaIngreso;
 
-
-
     public Paciente() {
     }
 

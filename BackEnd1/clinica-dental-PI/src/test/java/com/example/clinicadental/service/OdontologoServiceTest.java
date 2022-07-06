@@ -1,8 +1,10 @@
 package com.example.clinicadental.service;
 
 
+import com.example.clinicadental.exceptions.ResourceNotFoundException;
+import com.example.clinicadental.exceptions.SQLIntegrityViolationException;
 import com.example.clinicadental.model.Paciente;
-import com.example.clinicadental.repository.impl.OdontologoDaoH2;
+
 import com.example.clinicadental.model.Odontologo;
 import com.example.clinicadental.service.OdontologoService;
 import com.example.clinicadental.service.PacienteService;
@@ -62,7 +64,7 @@ public class OdontologoServiceTest {
     }
 
     @Test
-    public void eliminarOdontologo() {
+    public void eliminarOdontologo() throws ResourceNotFoundException, SQLIntegrityViolationException {
         System.out.println("==============================");
         System.out.println("TEST ELIMINAR ODONTÓLOGO");
         System.out.println("==============================");

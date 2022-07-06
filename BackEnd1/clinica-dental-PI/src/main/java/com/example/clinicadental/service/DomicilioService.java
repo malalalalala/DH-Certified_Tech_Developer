@@ -4,12 +4,10 @@ package com.example.clinicadental.service;
 
 
 import com.example.clinicadental.repository.DomicilioRepository;
-import com.example.clinicadental.repository.IDao;
 import com.example.clinicadental.model.Domicilio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.Table;
 import java.util.List;
 @Service
 

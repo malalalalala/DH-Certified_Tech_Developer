@@ -1,5 +1,7 @@
 package com.example.clinicadental.service;
 
+import com.example.clinicadental.exceptions.BadRequestException;
+import com.example.clinicadental.exceptions.ResourceNotFoundException;
 import com.example.clinicadental.model.Domicilio;
 import com.example.clinicadental.model.Odontologo;
 import com.example.clinicadental.model.Paciente;
@@ -13,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
@@ -31,7 +34,7 @@ class TurnoServiceTest {
 
 
     @Test
-    public void agregarYBuscarTurnosTest() {
+    public void agregarYBuscarTurnosTest() throws BadRequestException, ResourceNotFoundException {
         System.out.println("==============================");
         System.out.println("TEST AGREGAR Y BUSCAR TURNOS");
         System.out.println("==============================");
@@ -47,7 +50,7 @@ class TurnoServiceTest {
 
     }
     @Test
-    public void eliminarTurno() {
+    public void eliminarTurno() throws ResourceNotFoundException, BadRequestException, SQLException {
 
         Domicilio domicilio = new Domicilio("Calle", "123", "Temperley", "Buenos Aires");
         Paciente paciente = pacienteService.guardar(new Paciente("Tomas", "Pereyra", "12345678", new Date(), domicilio));
@@ -61,7 +64,7 @@ class TurnoServiceTest {
     }
 
     @Test
-    public void buscarTurnos() {
+    public void buscarTurnos() throws BadRequestException, ResourceNotFoundException {
         System.out.println("==============================");
         System.out.println("TEST BUSCAR TODOS LOS TURNOS");
         System.out.println("==============================");

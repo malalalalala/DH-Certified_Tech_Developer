@@ -1,6 +1,7 @@
 package com.example.clinicadental.controller;
 
-import com.example.clinicadental.repository.impl.OdontologoDaoH2;
+import com.example.clinicadental.exceptions.ResourceNotFoundException;
+import com.example.clinicadental.exceptions.SQLIntegrityViolationException;
 import com.example.clinicadental.model.Odontologo;
 import com.example.clinicadental.service.OdontologoService;
 import com.example.clinicadental.service.PacienteService;
@@ -18,16 +19,6 @@ public class OdontologoController {
     @Autowired
     private OdontologoService odontologoService;
 
-//    @GetMapping("/{id}")
-//    public ResponseEntity <Odontologo> buscarPorId(@PathVariable("id") Integer identificador){
-//        return odontologoService.buscar(identificador);
-//    }
-
-//    @GetMapping
-//    public List<Odontologo> buscarOdontologos(){
-//        return odontologoService.buscarTodos();
-//    }
-
 
     @GetMapping("/{id}")
     public ResponseEntity<Odontologo> buscar(@PathVariable Integer id){
@@ -39,27 +30,10 @@ public class OdontologoController {
         }
     }
 
-//    @DeleteMapping("/id")
-//    ResponseEntity<String> response;
-//        if (service.buscar(id) != null){
-//                service.eliminar(id);
-//                response= ResponseEntity.status(HttpStatus.OK).body("Eliminado");
-//                }else{
-//                response= ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-//                }
-//                return response;
-
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> eliminar(@PathVariable Integer id){
-        ResponseEntity<String> response;
-        if (odontologoService.buscar(id) != null){
-            odontologoService.eliminar(id);
-            response = ResponseEntity.status(HttpStatus.OK).body("Se eliminó el odontólogo con id="+id);
-        }else{
-            response = ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se eliminó " +
-                    "el odontólogo con id="+id+" al no ser encontrado en la base de datos");
-        }
-        return response;
+    public ResponseEntity<String> eliminar(@PathVariable Integer id) throws ResourceNotFoundException, SQLIntegrityViolationException {
+        odontologoService.eliminar(id);
+        return ResponseEntity.status(HttpStatus.OK).body("Se eliminó el odontólogo con id="+id);
 
     }
 
@@ -84,14 +58,4 @@ public class OdontologoController {
 }
 
 
-//    Buscar odontólogos por id
-//PATH: /odontologos/{id}    Método : GET
-//        Registrar un nuevo odontólogo
-//        PATH: /odontologos          Metodo: POST
-//        Actualizar los datos de un odontólogo ya registrado
-//        PATH : /odontologos         Método : PUT
-//        Eliminar un odontólogo por id
-//        PATH: /odontologos/{id}    Metodo: DELETE
-//        Listar todos los odontologos
-//        PATH: /odontologos  Método : GET
 
