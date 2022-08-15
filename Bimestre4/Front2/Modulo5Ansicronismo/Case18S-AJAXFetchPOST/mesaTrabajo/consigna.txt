@@ -1,0 +1,5 @@
+Front End II
+To-Do API
+Valiéndose de la documentación y el trabajo en clase, deberán lograr crear un usuario en la API y obtener su token.
+Este proceso puede realizarse a través de la herramienta Postman, o si ya lo prefieren desde un script.
+Documentación: https://ctd-todo-api.herokuapp.com/
