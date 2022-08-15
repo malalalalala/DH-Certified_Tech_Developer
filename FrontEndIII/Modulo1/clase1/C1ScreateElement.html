@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Frontend III Ejercicio práctico clase 1</title>
+  </head>
+  <body>
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <div id="root"></div>
+
+    <script type="text/javascript">
+
+    const title=React.createElement("h1", {key:1}, "Con lo visto hasta ahora")
+    const subtitle1=React.createElement("h2", {key:2}, "Replica este HTML")
+    const subtitle2=React.createElement("h3", {key:3}, "Usando")
+    const subtitle3=React.createElement("h4",null, "React.js")
+    const footer=React.createElement("footer", {key:5}, "Suerte!")
+
+    const content=[title,subtitle1,subtitle2,subtitle3,footer]
+
+    const container=React.createElement("div",null,content)
+
+    ReactDOM.render(container, document.querySelector("#root"))
+
+    </script>
+
+</body>
+</html>

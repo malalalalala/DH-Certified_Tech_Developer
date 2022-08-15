@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stock en verdulería</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <!-- <h1>Lista de Productos en stock:</h1>
+      <ul>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>Naranja</li>
+        <li>Banana</li>
+        <li>Kiwi</li>
+      </ul>
+      <h2>Productos en falta:</h2>
+      <ul>
+        <li>Durazno</li>
+        <li>Cereza</li>
+        <li>Anana</li>
+      </ul> -->
+
+      <script type="text/babel">
+        const frutasEnStock = ["Manzana", "Pera", "Naranja", "Banana", "Kiwi"];
+        const frutasEnFalta = ["Durazno", "Cereza", "Anana"];
+        
+        const Lista = ({frutas}) => {
+            const frutasListado = frutas.map((fruta, index) => 
+                <li key={index}>{fruta}</li>
+            ) 
+            return <ul>{frutasListado}</ul>
+        }
+
+        const Contenedor=()=>{
+          return(
+          <div>
+            <h1>Lista de Productos en stock:</h1>
+                <Lista frutas={frutasEnStock}/>
+                <h2>Productos en falta:</h2>
+                <Lista frutas={frutasEnFalta}/>
+          </div>)
+        }
+
+        ReactDOM.render(
+          Contenedor()
+            ,document.getElementById("root"));
+
+      //   ReactDOM.render(
+      //       <div>
+      //           <h1>Lista de Productos en stock:</h1>
+      //           <Lista frutas={frutasEnStock}/>
+      //           <h2>Productos en falta:</h2>
+      //           <Lista frutas={frutasEnFalta}/>
+      //       </div>
+      //       ,document.getElementById("root"));
+
+      //   const enStock = ["Manzana", "Pera", "Naranja", "Banana", "Kiwi"];
+      //   const enFalta = ["Durazno", "Cereza", "Anana"];
+      //   const conte = document.getElementById("root")
+
+      //   function Lista(p) {
+      //     return (
+      //         <ul>
+      //             { p.lista.map((elemento, i) => <li key={"li-" + i}>{elemento}</li>) }
+      //         </ul>
+      //     );
+      // }
+
+      // function ProductosVerduleria(p) {
+      //   return (
+      //     <>
+      //         <h2>Lista de Productos en stock:</h2>
+      //         <Lista lista={enStock}/>
+      //         <h2>Productos en falta:</h2>
+      //         <Lista lista={enFalta} />
+      //     </>
+      //   );
+      // }
+
+      // ReactDOM.render(
+
+      //   ProductosVerduleria(),conte
+
+      // );
+
+
+    </script>
+    </div>
+  </body>
+</html>

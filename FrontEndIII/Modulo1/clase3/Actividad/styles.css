@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background: #f07d78;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.header .item {
+  border: 1px solid;
+  width: 100%;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-section {
+  width: 100%;
+  display: flex;
+}
+
+.about-section .avatar {
+  margin-top: 20px;
+  width: 50%;
+  border-radius: 50%;
+  padding: 0 50px;
+  height: min-content;
+}
+
+.about-section .personal-information {
+  margin-top: 30px;
+  max-width: 35%;
+}
+
+.about-section .personal-information h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-section .personal-information ul {
+  margin-left: 40px;
+  list-style-type: "-";
+}
+
+.about-section .personal-information p,
+li {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.about-section .personal-information section {
+  margin: 20px 0 0px;
+}

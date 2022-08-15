@@ -1,4 +1,0 @@
-Mesa de trabajo Clase 17
-El punto de partida será el repositorio que se encuentra en el este link, que contiene la consigna, archivos y todo lo necesario para poder realizar la actividad. Para comenzar, podemos realizar un fork del repositorio para almacenarlo en la cuenta de Github o simplemente descargarlo como un archivo .zip para trabajar localmente en nuestra computadora.
-Las consignas se encuentran comentadas en el archivo JS donde deberán desarrollar las funcionalidades necesarias para cumplir con la tarea de la mesa.
-¡Éxitos!
