@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Pelicula{
+-nombre:String
+-pais:String
+-link:String
+}
+
+interface IGrillaDePeliculas{
++ getPelicula(nombrePelicula:String):Pelicula;
+}
+
+class GrillaDePeliculas implements IGrillaDePeliculas{
++ getPelicula(nombrePelicula:String):Pelicula;
+}
+
+class GrillaDePeliculasProxy implements IGrillaDePeliculas{
+-dirIP:IP
+-grilla:GrillaDePeliculas
++ getPelicula(nombrePelicula:String):Pelicula;
+
+}
+
+class IP{
+-nro1:int
+-nro2:int
+-nro3:int
+-nro4:int
+
++getPais():String
++toString():String
+}
+
+class PeliculaNoHabilitadaException extends Exception{
+
+}
+
+class Exception{
+}
+
+GrillaDePeliculasProxy  -up-|> IP:dirIP
+GrillaDePeliculasProxy  -up-|> GrillaDePeliculas:grilla
+
+@enduml

@@ -1,0 +1,119 @@
+[2022-06-0221:03:12] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:03:12] [ ERROR] [OdontologoDaoH2:48] error de conexión a la BD
+[2022-06-0221:03:12] [ ERROR] [OdontologoDaoH2:74] error en la inserción del registro a la BD
+[2022-06-0221:03:12] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:03:12] [ ERROR] [OdontologoDaoH2:48] error de conexión a la BD
+[2022-06-0221:03:12] [ ERROR] [OdontologoDaoH2:74] error en la inserción del registro a la BD
+[2022-06-0221:03:12] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:03:12] [ ERROR] [OdontologoDaoH2:48] error de conexión a la BD
+[2022-06-0221:03:12] [ ERROR] [OdontologoDaoH2:74] error en la inserción del registro a la BD
+[2022-06-0221:04:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:04:19] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:04:19] [ ERROR] [OdontologoDaoH2:74] error en la inserción del registro a la BD
+[2022-06-0221:04:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:04:19] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:04:19] [ ERROR] [OdontologoDaoH2:74] error en la inserción del registro a la BD
+[2022-06-0221:04:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:04:19] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:04:19] [ ERROR] [OdontologoDaoH2:74] error en la inserción del registro a la BD
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:69] se ha insertado el registro con matricula 1234correspondiente aLauraRamos en la BD
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:69] se ha insertado el registro con matricula 5678correspondiente aCieloAgudelo en la BD
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:04:56] [ INFO ] [OdontologoDaoH2:69] se ha insertado el registro con matricula 91011correspondiente aCarlosRamírez en la BD
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:69] se ha insertado el registro con matricula 1234 correspondiente a LauraRamos en la BD
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:69] se ha insertado el registro con matricula 5678 correspondiente a CieloAgudelo en la BD
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:44] Creación exitosa de la tabla
+[2022-06-0221:08:02] [ INFO ] [OdontologoDaoH2:69] se ha insertado el registro con matricula 91011 correspondiente a CarlosRamírez en la BD
+[2022-06-0221:08:56] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:08:56] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 1234 correspondiente a LauraRamos en la BD
+[2022-06-0221:08:56] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:08:56] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 5678 correspondiente a CieloAgudelo en la BD
+[2022-06-0221:08:56] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:08:56] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 91011 correspondiente a CarlosRamírez en la BD
+[2022-06-0221:10:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:10:50] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 1234 correspondiente a LauraRamos en la BD
+[2022-06-0221:10:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:10:50] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 5678 correspondiente a CieloAgudelo en la BD
+[2022-06-0221:10:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:10:50] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 91011 correspondiente a CarlosRamírez en la BD
+[2022-06-0221:11:48] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:11:48] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 1234 correspondiente a LauraRamos en la BD
+[2022-06-0221:11:48] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:11:48] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 5678 correspondiente a CieloAgudelo en la BD
+[2022-06-0221:11:48] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:11:48] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 91011 correspondiente a CarlosRamírez en la BD
+[2022-06-0221:13:10] [ ERROR] [OdontologoDaoH2:47] error de conexión a la BD
+[2022-06-0221:13:26] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:13:26] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:13:26] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:13:26] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:13:26] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:30:35] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:30:35] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:30:35] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:30:35] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:30:35] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:30:45] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:30:45] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:30:45] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:30:45] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:30:45] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 1234 correspondiente a LauraRamos en la BD
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 5678 correspondiente a CieloAgudelo en la BD
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 91011 correspondiente a CarlosRamírez en la BD
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez, Odontologo con: id=4, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=5, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=6, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:32:50] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez, Odontologo con: id=4, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=5, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=6, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 1234 correspondiente a LauraRamos en la BD
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 5678 correspondiente a CieloAgudelo en la BD
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:68] se ha insertado el registro con matricula 91011 correspondiente a CarlosRamírez en la BD
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:35:19] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:38:14] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:38:14] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:38:14] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:38:14] [ INFO ] [OdontologoDaoH2:96] buscando la información de cada odontólogo
+[2022-06-0221:38:14] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez]
+[2022-06-0221:49:39] [ ERROR] [OdontologoDaoH2:47] error de conexión a la BD
+[2022-06-0221:49:59] [ INFO ] [OdontologoDaoH2:42] Conexión exitosa a la tabla
+[2022-06-0221:49:59] [ INFO ] [OdontologoDaoH2:96] buscando la información del odontólogo
+[2022-06-0221:49:59] [ INFO ] [OdontologoDaoH2:96] buscando la información del odontólogo
+[2022-06-0221:49:59] [ INFO ] [OdontologoDaoH2:96] buscando la información del odontólogo
+[2022-06-0221:49:59] [ INFO ] [OdontologoDaoH2:107] la lista de odontólogos es [Odontologo con: id=1, nroMatricula=1234, nombre='LauraRamos, Odontologo con: id=2, nroMatricula=5678, nombre='CieloAgudelo, Odontologo con: id=3, nroMatricula=91011, nombre='CarlosRamírez]

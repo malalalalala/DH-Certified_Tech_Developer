@@ -1,0 +1,31 @@
+@startuml
+
+class Persona{
+-nombre:String
+-apellido:String
+-DNI:String
+-fechaAsignada:LocalDate
+-nombreVacuna:String
+
+}
+
+Interface Vacunatorio{
++vacunar(persona:Persona):String
+}
+
+class VacunatorioProxy implements Vacunatorio{
+-vacunatorioReal:VacunatorioService
++vacunar(persona:Persona):String
+
+}
+
+class VacunatorioService implements Vacunatorio{
++vacunar(persona:Persona):String
+
+}
+
+
+VacunatorioProxy  -up-|> VacunatorioService:vacunatorioReal
+
+
+@enduml
