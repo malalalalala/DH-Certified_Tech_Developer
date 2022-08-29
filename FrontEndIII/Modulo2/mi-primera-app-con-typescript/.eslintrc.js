@@ -22,6 +22,7 @@ module.exports = {
     rules: {
         'no-console': 1,
         'no-extra-semi': 2,
+        'react/prop-types': 0,
         // "indent": [1, "space"],
         'no-tabs': 0,
         // 'prettier/prettier': [
